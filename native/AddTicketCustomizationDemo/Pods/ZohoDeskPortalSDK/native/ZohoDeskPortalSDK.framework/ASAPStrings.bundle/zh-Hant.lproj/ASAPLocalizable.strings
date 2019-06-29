@@ -1,0 +1,325 @@
+"DeskPortal.Dashboard.Heading" = "客戶支援";
+"DeskPortal.Network.failed.error.message"                                  = "請檢查您的網路連線";
+"DeskPortal.Dashboard.addticket.title"                          = "提交票證";
+"DeskPortal.Dashboard.addticket.description"                     = "從我們的代理處尋求幫助";
+"DeskPortal.Dashboard.helpcenter.title"                           = "知識庫";
+"DeskPortal.Dashboard.helpcenter.description"                 = "瀏覽我們廣泛的說明文章庫";
+"DeskPortal.Dashboard.community.title"                             = "群體";
+"DeskPortal.Dashboard.community.description"                         = "查找解決方案並與使用者群體分享";
+"DeskPortal.Dashboard.myticket.title"                             = "我的票證";
+"DeskPortal.Dashboard.myticket.description"                     = "檢視和管理您提交的票證";
+"DeskPortal.Helpcenter.category.subheading"                             = "部分";
+"DeskPortal.Helpcenter.article.subheading"                             = "文章";
+"DeskPortal.Helpcenter.categories.subheading"                           = "部分";
+"DeskPortal.Helpcenter.articles.subheading"                             = "文章";
+"DeskPortal.Addticket.title"                              = "新增票證";
+"DeskPortal.Helpcenter.feedback.title"                                  = "意見反應";
+"DeskPortal.Helpcenter.feedback.description"                                  = "很抱歉此文章沒有為您帶來幫助。";
+"DeskPortal.Helpcenter.article.detail.title"                                    = "常見問題集";
+"DeskPortal.Helpcenter.article.detail.vote.description"                        = "本文章對您是否有用？";
+"DeskPortal.Helpcenter.article.detail.relatedtitle"                         = "相關文章";
+"DeskPortal.Myticket.conversation.option.title"                       = "交談動作";
+"DeskPortal.Myticket.comment.option.title"                            = "評論動作";
+"DeskPortal.Myticket.option.closeticket"                              = "關閉票證";
+"DeskPortal.Myticket.option.editcomment"                              = "編輯評論";
+"DeskPortal.Error.message.reload"                                = "重試";
+
+"DeskPortal.Helpcenter.sections.subheading" = "類別";
+"DeskPortal.Helpcenter.section.subheading" = "類別";
+
+
+"zdsdk.general.powered"                                 = "Zoho 提供技術支援";
+
+"zdsdk.general.back"                                    = "返回";
+"zdsdk.general.cancel"                                  = "取消";
+"zdsdk.general.submit"                                  = "提交";
+"zdsdk.general.email"                                   = "電子郵件";
+
+"zdsdk.attachements.attachements"                       = "附件";
+"zdsdk.dashboard.title"                                 = "歡迎！";
+
+"zdsdk.helpcenter.search"                               = "搜尋";
+
+"zdsdk.helpcenter.solutions"                            = "解決方案";
+
+"zdsdk.helpcenter.recentsearch"                         = "最近搜尋";
+"zdsdk.helpcenter.results"                              = "結果";
+"zdsdk.helpcenter.noarticlesfound"                      = "未發現文章";
+"zdsdk.helpcenter.nodescription"                        = "無描述";
+"zdsdk.addnewticket.successmsg"                         = "已成功建立票證。我們將會盡快與您聯絡。";
+"zdsk.addnewticket.validEmail"                          = "請輸入有效的電子郵件地址。";
+"zdsk.addnewticket.Emptyfield"                          = "請填寫所有必填欄位。";
+"zdsk.addnewticket.createError"                         = "無法建立票證。";
+"zdsdk.createTicket.entervalid"                         = "請輸入有效的 %@";
+"desk.library.newticket.field.error"                    = "%@ 不能為空值";
+"desk.library.newticket.date.picker" = "或從以下項中選取最近日期";
+
+//FeedBack Screen
+
+"zdsdk.feedback.barbutton"                              = "跳過";
+
+"zdsdk.feedback.feedbackus"                             = "幫助我們改進。";
+"zdsdk.feedback.placeholder"                            = "在此輸入您的意見反應";
+"zdsdk.feedback.thanks"                                 = "感謝您的意見反映。我們將很快回復您。";
+
+//Solution Detail Screen
+
+"desk.library.solution.like.count"                      = "1 個使用者對此文章按讚";
+"desk.library.solution.likes.count"                     = "%@ 個使用者對此文章按讚";
+"desk.library.solution.you.only.like.count"             = "您已對此文章按讚";
+"desk.library.solution.you.like.count"                  = "您和另一個使用者對此文章按讚";
+"desk.library.solution.you.likes.count"                 = "您和其他 %@ 個使用者對此文章按讚";
+
+"zdsdk.Solution.yes"                                    = "是";
+"zdsdk.Solution.no"                                     = "否";
+"zdsdk.Solution.selectyes"                              = "您發現此文章有用。";
+"zdsdk.Solution.today"                                  = "今天";
+"zdsdk.Solution.Yesterday"                              = "昨天";
+"zdsdk.Solution.ahour"                                  = "1 小時前";
+"zdsdk.Solution.aweek"                                  = "1 週前";
+"zdsdk.Solution.amonth"                                 = "1 個月前";
+"zdsdk.Solution.ayear"                                  = "1 年前";
+"zdsdk.Solution.hours"                                  = "%@ 小時前";
+"zdsdk.Solution.days"                                   = "%@ 天前";
+"zdsdk.Solution.weeks"                                  = "%@ 週前";
+"zdsdk.Solution.years"                                  = "%@ 年前";
+"zdsdk.Solution.months"                                 = "%@ 個月前";
+"zdsdk.Solution.minute"                                 = "%@ 分鐘前";
+"zdsdk.Solution.second"                                 = "%@ 秒鐘前";
+"desk.library.solution.attachment"                      = "1 個附件";
+"desk.library.solution.attachments"                     = "%@ 個附件";
+"desk.library.updated.sec.left"                         = "剩下 1 秒鐘";
+"desk.library.updated.secs.left"                        = "剩下 %@ 秒鐘";
+"desk.library.updated.sec.due.by"                       = "晚 1 秒鐘";
+"desk.library.updated.secs.due.by"                      = "晚 %@ 秒鐘";
+"desk.library.updated.min"                              = "1 分鐘前";
+"desk.library.updated.min.left"                         = "剩下 1 分鐘";
+"desk.library.updated.mins.left"                        = "剩下 %@ 分鐘";
+"desk.library.updated.min.due.by"                       = "晚 1 分鐘";
+"desk.library.updated.mins.due.by"                      = "晚 %@ 分鐘";
+"desk.library.updated.hour.left"                        = "剩下 1 小時";
+"desk.library.updated.hours.left"                       = "剩下 %@ 小時";
+"desk.library.updated.hour.due.by"                      = "晚 1 小時";
+"desk.library.updated.hours.due.by"                     = "晚 %@ 小時";
+"desk.library.updated.days.left"                        = "剩下 %@ 天";
+"desk.library.updated.day.left"                         = "剩下 1 天";
+"desk.library.updated.days.due.by"                      = "晚 %@ 天";
+"desk.library.updated.day.due.by"                       = "晚 1 天";
+"desk.library.updated.one.month.left"                   = "剩下 1 個月";
+"desk.library.updated.months.left"                      = "剩下 %@ 個月";
+"desk.library.updated.one.month.due_by"                 = "晚 1 個月";
+"desk.library.updated.months.due.by"                    = "晚 %@ 個月";
+"desk.library.updated.year.left"                        = "剩下 1 年";
+"desk.library.updated.years.left"                       = "剩下 %@ 年";
+"desk.library.updated.year.due_by"                      = "晚 1 年";
+"desk.library.updated.years.due_by"                     = "晚 %@ 年";
+
+//Community screen
+"zdsdk.community.posts"                                 = "%@ 篇貼文";
+"zdsdk.community.forums"                                = "%@ 個論壇";
+"zdsdk.community.changeType"                            = "變更類型";
+"zdsdk.community.all"                                   = "全部";
+"zdsdk.community.questions"                             = "疑問";
+"zdsdk.community.problems"                              = "問題";
+"zdsdk.community.ideas"                                 = "想法";
+"zdsdk.community.allposts"                              = "所有貼文";
+"zdsdk.community.comments"                              = "評論";
+"zdsdk.community.liked"                                 = "按讚";
+
+//Ticket List Screen
+"desk.library.from"                                     = "自";
+"desk.library.to"                                       = "至";
+"desk.library.send"                                     = "傳送";
+"zdsdk.ticket.comment"                                  = "評論";
+"zdsdk.ticket.thread"                                   = "執行緒";
+"zdsdk.ticket.ticketAction"                             = "票證動作";
+
+"zdsdk.ticket.deleteDraft"                              = "刪除草稿";
+"zdsdk.ticket.reply"                                    = "回覆";
+"zdsdk.ticket.editDraft"                                = "編輯草稿";
+"zdsdk.ticket.sendDraft"                                = "傳送草稿";
+"zdsdk.ticket.deleteComment"                            = "刪除評論";
+"zdsdk.ticket.camera"                                   = "相機";
+"zdsdk.ticket.photoLibrary"                             = "相片媒體櫃";
+"zdsdk.ticket.attachementTitle"                         = "附件源";
+"zdsdk.ticket.priorityUpdateMessage"                    = "已更新優先順序";
+"zdsdk.ticket.TicketClosedMessage"                      = "票證已關閉";
+"zdsdk.ticket.error"                                    = "出現了錯誤。";
+"zdsdk.comment.deleteConfirmation"                      = "您確定嗎？";
+"zdsdk.comment.deleteSuccessMessage"                    = "已刪除評論";
+"zdsdk.comment.emptyDescriptionMessage"                 = "編輯評論描述";
+"zdsdk.ticket.addComment"                               = "添加註釋";
+"zdsdk.ticket.deleteTopic"                              = "刪除主題";
+"zdsdk.ticket.editTopic"                                = "編輯主題";
+"zdsdk.topic.attacheFile"                               = "附加檔案";
+"zdsdk.topic.addTag"                                    = "新增標記";
+"zdsdk.topic.saveAsDraft"                               = "另存為草稿";
+"zdsdk.topic.createTopic"                               = "建立主題";
+"desk.library.priority.change.failed"                   = "更新優先順序失敗";
+"desk.library.network.connection"                       = "網路連線丟失";
+"desk.library.ticket.closed"                            = "已關閉";
+"desk.library.select.priority"                          = "選取優先順序";
+"desk.library.thread.attachment.error"                  = "加載附件時出錯。請再試一次。";
+
+/////
+"desk.library.community_topics_type_announcement"       = "佈告";
+"desk.library.community_topics_all_posts_count"         = "所有貼文 (%@)";
+"desk.library.community_topics_type_announcement_count" = "佈告 (%@)";
+"desk.library.community_topics_type_question_count"     = "疑問 (%@)";
+"desk.library.community_topics_type_idea_count"         = "想法 (%@)";
+"desk.library.community_topics_type_problem_count"      = "問題 (%@)";
+"desk.library.community_topics_likes"                   = "%@ 個按讚";
+"desk.library.community_topics_status_ANSWERED"         = "已回答";
+"desk.library.community_topics_status_UNANSWERED"       = "未回答";
+"desk.library.community_topics_status_INPROGRESS"       = "正在處理";
+"desk.library.community_topics_status_IMPLEMENTED"      = "已實作";
+"desk.library.community_topics_status_UNDERREVIEW"      = "檢閱中";
+"desk.library.community_topics_status_WILLNOTIMPLEMENT" = "將不會實作";
+"desk.library.community_topics_status_MAYBELATER"       = "稍後再說";
+"desk.library.community_topics_status_NOTAPROBLEM"      = "不是問題";
+"desk.library.community_topics_status_TEMPORARYFIX"     = "臨時修復";
+"desk.library.community_topics_status_SOLVED"           = "已解決";
+"desk.library.community_topics_status_UNSOLVED"         = "未解決";
+"desk.library.community_topics_status_NEEDMOREINFO"     = "需要更多資訊";
+"desk.library.community_topics_status_ANALAYZING"       = "正在分析";
+"desk.library.community_topics_status_WORKINGONIT"      = "正在努力";
+"desk.library.profile"                                  = "設定檔";
+"desk.library.live_chat"                                = "線上聊天";
+"desk.library.community_topic_attachment_download"      = "下載";
+"desk.library.community_topic_attachment_view"          = "檢視";
+"desk.library.community_topic_attachment_share"         = "共用";
+"desk.library.no_network_msg"                           = "無網際網路連線";
+
+"desk.library.helpcenter_articles_count"                = "%@ 篇文章";
+"desk.library_community_show_details"                   = "顯示詳細資料";
+"desk.library_community_showing_tag"                    = "正在顯示";
+"desk.library_community_hiding_tag"                     = "正在隱藏";
+"navigation_drawer_open"                                = "開啟導覽抽屜";
+"navigation_drawer_close"                               = "關閉導覽抽屜";
+"action_settings"                                       = "設定";
+"desk_nav_drawer_open"                                  = "開啟";
+"desk_nav_drawer_close"                                 = "關閉";
+"desk.library.ticket_information_title"                 = "票證資訊";
+"desk.library.ticket_information_edit"                  = "編輯";
+"desk.library.ticket_information_ticket_details"        = "票證詳細資料";
+"desk.library.ticket_information_created_date"          = "建立日期";
+"desk.library.ticket_information_department"            = "部門";
+"desk.library.ticket_information_channel"               = "頻道";
+"desk.library.ticket_information_priority"              = "優先順序";
+"desk.library.ticket_information_status"                = "狀態";
+"desk.library.ticket_information_due_date"              = "到期日期";
+"desk.library.draft"                                    = "草稿";
+"desk.library.ticket.add_a_comment"                     = "新增評論";
+"desk.library.thread.Conversation"                      = "會話";
+"desk_sdk_network_alert"                                = "網路丟失";
+"desk_community_new_topic_add_a_title"                  = "新增標題";
+
+"desk_library_community_idea"                           = "想法";
+"desk_library_community_problem"                        = "問題";
+"desk_library_community_question"                       = "疑問";
+"desk_library_community_tag_rule"                       = "插入逗號以新增多個標記";
+"desk_library_alert_ok"                                 = "確認";
+
+
+"desk_library_msg_topic_update_success" = "主題更新成功";
+"desk_library_msg_add_ticket_failed" = "新增票證失敗";
+"desk.library.camera" = "開啟相機";
+"desk.library.msg_article_failed" = "擷取文章失敗";
+"desk.library.msg_upvote_failed" = "對文章按讚失敗";
+"desk.library.msg_downvote_failed" = "取消文章按讚失敗";
+"desk_library_kb_section" = "部分";
+"desk_library_tag_duplicate_error" = "不允許輸入重複標記";
+"desk_library_msg_comment_update_success" = "註解更新成功";
+"desk_library_msg_comment_update_failed" = "更新註解失敗";
+"desk.library.msg_ticket_failed" = "擷取票證失敗";
+"desk.library.ticket.closed.failed" = "關閉票證失敗";
+"desk.library.ticket.attachments" = "附件 (%@)";
+"desk.library.updated.message" = "上次更新約在 %s 之前";
+"desk.library.empty_error_message_email" = "電子郵件欄位不得為空";
+"desk.library.community.create_topic" = "建立主題";
+"desk_community_new_topic_add_a_title" = "新增標題";
+"desk.library.community.saveasdraft" = "另存為草稿";
+"desk_library_community_add_tags" = "新增標記";
+"desk_library_community_attachfiles" = "附加檔案";
+"desk_library_community_cancel" = "取消";
+"desk_library_alert_msg_close_ticket" = "您確定要關閉此票證？?";
+"desk_library_alert_msg_delete_comment" = "您確定要刪除此註解嗎？?";
+"desk_library_community_done" = "完成";
+"desk.library.follow" = "關注";
+"desk.library.following" = "正在關注";
+"desk.library.server_error" = "噢！出現了錯誤.";
+"desk_library_msg_comment_delete_success" = "已刪除註解";
+"desk_library_msg_comment_delete_failed" = "註解刪除失敗";
+"desk_library_msg_comment_add_success" = "成功新增註解";
+"desk_library_msg_close_ticket_success" = "票證已關閉";
+"desk_library_msg_close_ticket_failed" = "關閉票證失敗";
+"desk_library_msg_attachment_uploading" = "尚未上傳附件";
+"desk_sdk_community_topic_edit_tag" = "編輯標記";
+"desk_library_community_continue" = "繼續";
+"desk_library_community_sub_category" = "子類別";
+
+"desk_library_community_discard_alert" = "是否繼續？請記住，這些變更將會丟失.";
+"desk.library.updated.sec" = "剛才";
+"desk.library.community_comment_empty_error" = "請輸入您的註解";
+"desk.library.community_topic_type_description" = "變更類型";
+"desk.library.no_data_msg_community" = "這裡沒有任何社群.";
+"desk.library.no_data_msg_conversations" = "這裡沒有任何交談.";
+"desk.library.feed_back_error_message" = "意見反應不能為空";
+"desk_library_msg_priority_update_success" = "優先順序更新成功";
+"desk_library_msg_priority_update_failed" = "更新優先順序失敗";
+"desk_library_ticket_content_length_error" = "內容長度超出了所定義的限制";
+"desk_library_tag_limit_error" = "不能新增超過五個標記.";
+"desk_library_msg_topic_add_success" = "成功新增主題";
+"desk_library_msg_topic_update_failed" = "更新主題失敗";
+"desk.library.newticket.file.size.error" = "檔案大小不應超過 20 MB.";
+"desk.library.msg_conversation_failed" = "無法擷取票證詳情";
+"desk_library_community_comments_show_more" = "顯示更多";
+"desk.library.community.edit_topic" = "編輯主題";
+"desk_library_comment_emoji_character_error" = "註解中不允許使用 Emojis";
+"desk_library_msg_attaching_file" = "正在從檔案附加";
+"desk.library.msg_reply_failed" = "未新增回覆";
+"desk.library.msg_reply_success" = "回覆新增成功";
+"desk.library.no_data" = "沒有資料";
+"desk.library.no_data_msg_articles" = "這裡沒有任何文章.";
+"desk.library.no_data_msg_tickets" = "這裡沒有任何票證.";
+"desk.library.no_data_msg_topics" = "這裡沒有任何主題.";
+"desk.library.thread.option.delete" = "刪除";
+"desk_library_community_content_error" = "請輸入主題內容";
+"desk_library_msg_comment_add_failed" = "註解新增失敗";
+"desk.library.topic_content_placeholder" = "內容文字";
+"zdsdk_topic_alert_delete" = "您確定要添加此主題嗎？?";
+"zdsdk_topic_delete_success" = "已成功刪除主題";
+"zdsdk_topic_delete_Failed" = "刪除主題失敗";
+"zdsdk_addTicket_actionsheet_description" = "選取 %@ 選項";
+"zdsdk_addTicket_actionsheet_fail_description" = "未發現 %@ 選項";
+"zdsdk_addTicket_multiselect_empty" = "點選以選取值";
+"zdsdk_addTicket_multiselect_selected" = "%@ 值已選";
+"zdsdk_topic_update" = "更新";
+"zdsdk_community_Follow_error" = "無法關注該類別";
+"zdsdk_community_unFollow_error" = "無法取消關注該類別";
+"desk_library_msg_topic_add_failed" = "主題新增失敗";
+"zdsdk_community_tag_characters_error" = "標記中不能使用特殊字元";
+"zdsdk.attachment.attachment" = "附件";
+"desk_library_community_subject_length_error" = "標題長度超出了限制";
+"desk.library.newticket.file.error" = "無法上傳附件";
+"zdsdk_topic_updated_success" = "已成功更新主題";
+"zdsdk_topic_discard_alert" = "確定要捨棄變更？?";
+"desk_library_community_subject_error" = "請為主題輸入一個標題";
+"desk.library.community_category_comments" = "%s 註解";
+
+"desk_library_msg_topic_delete_success" = "已刪除主題";
+"desk_library_community_title_error" = "輸入標題";
+"desk_library_tag_spl_character_error" = "標記中不能使用特殊字元";
+"desk_library_alert_msg_delete_topic" = "您確定要添加此主題嗎？?";
+"desk.library.msg_comment_failed" = "註解新增失敗";
+
+//"desk_library_community_add_tags"                       = "新增標記"; -> Add Tags
+
+//New Strings
+"zdsdk.message.ASAP.Disabled" = "The help center app is currently unavailable. Please contact the Administrator.";
+"desk.library.followers" = "Followers";
+"desk.library.helpcenter_article_count" = "%@ Article";
+"zdsdk.ticket.replies" = "Replies";
+"zdsdk.ticket.attachment.uploading" = "File attachment is in progress";
+"zdsdk.community.discussion" = "Discussions";
+"zdsdk.community.discussion.Count" = "Discussions (%@)";
