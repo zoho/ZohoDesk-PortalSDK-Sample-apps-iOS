@@ -6,242 +6,1651 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		00EC2AD6427FA09B610EE15B46245BB9 /* Mobilisten */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1D4880E46CA9B7BBBDBA30FF4A7D302E /* Build configuration list for PBXAggregateTarget "Mobilisten" */;
+			buildPhases = (
+				9E20A6CB7DBFB8C3275033926977CCE3 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = Mobilisten;
+		};
+		107473B09AC7199ABF49595F26CABA7C /* ZohoDeskPortalConfiguration */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 712A7A3C27BCBC16352B9CDDB0DBF48F /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalConfiguration" */;
+			buildPhases = (
+				5CC0FE85196DD6389E9680DA3727B937 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				FE9C7DEBF24C70A53FDCDD8DD6D775E0 /* PBXTargetDependency */,
+				78BA3AC24A1D0E7AE2164121542644E8 /* PBXTargetDependency */,
+			);
+			name = ZohoDeskPortalConfiguration;
+		};
+		122B28C3EC01BD5CDA68092F03C1A28C /* ZohoDeskPortalCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E18C1B23508934377BA193FFF0F74FA7 /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalCore" */;
+			buildPhases = (
+				69AD861E29CCFA74EA2E3AE5E01487FB /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				E053723A70C64327506756923FEE5194 /* PBXTargetDependency */,
+				3DE40B659A103672B8BB7B4F764DB3A5 /* PBXTargetDependency */,
+				05E601C629C6CF5FAEF446647ECA59F5 /* PBXTargetDependency */,
+				1D5F82B487360E86C89C124F409BD30D /* PBXTargetDependency */,
+				E0AC407B8EF346553725259FEDA8101A /* PBXTargetDependency */,
+				CE197A50451E5B5FEE1827B6334EA49E /* PBXTargetDependency */,
+			);
+			name = ZohoDeskPortalCore;
+		};
+		19D10CD1CFAB13D0549E3704F73D7120 /* ZohoDeskPortalServices */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ABD2AEB8ABE5204BEF677732A4AD288C /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalServices" */;
+			buildPhases = (
+				6F162C67EBA9B696AD72F8AC14DC4386 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				CB71986D70A34B9A276772C6A386E2B8 /* PBXTargetDependency */,
+				F99A405E5C41BF54723580A083C649C4 /* PBXTargetDependency */,
+				0EC5F41BBE356923AEEADD68267B7941 /* PBXTargetDependency */,
+				02E805D0D2E192844C82C01076EB5729 /* PBXTargetDependency */,
+				281B88FD988476D90F0E8C18454B3124 /* PBXTargetDependency */,
+				7B49CC9574764E86EA10FFC156CA05F0 /* PBXTargetDependency */,
+				FCE1315668BB58B47EE620E2144A0A91 /* PBXTargetDependency */,
+				D4B84E85E7C87837C249058CBBEE1243 /* PBXTargetDependency */,
+				71EB39F52575131E6173DB5C41F890B7 /* PBXTargetDependency */,
+			);
+			name = ZohoDeskPortalServices;
+		};
+		5B5B61ACF4B326ABDFB661DEC9FAF9D6 /* ZohoDeskPortalAPIKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 93507F4BA9118DB635022F106A9BC77A /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalAPIKit" */;
+			buildPhases = (
+				511A83E4B285E2D6F72E10CD5C56B1E7 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = ZohoDeskPortalAPIKit;
+		};
+		6E5C30D04C621DC622EAE68D28A4F256 /* ZohoDeskPortalTicket */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 26F701B0D4AE313ECA8CEA5433CA0EB2 /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalTicket" */;
+			buildPhases = (
+				248375780D209CED745D60482066C09A /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				CC62D36ECC45188A8768FCB8CF1D148C /* PBXTargetDependency */,
+				E85D89DB5773600B462F05ACDCF5F60A /* PBXTargetDependency */,
+				63B9636E8F694CB79F98E43B35CA0207 /* PBXTargetDependency */,
+			);
+			name = ZohoDeskPortalTicket;
+		};
+		73B4704FCF2FDD8861A71AAB8F61AE0D /* ZohoDeskPortalChat */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 86704A37A6FADB0D14FF45A3E0B9D829 /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalChat" */;
+			buildPhases = (
+				F622899626819C91B714B968F2DD21C1 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				8767D7D7C03AD2A4BA874BE1C4110C9F /* PBXTargetDependency */,
+				1ACD5EECB44E302EDA9634B3BD9274CA /* PBXTargetDependency */,
+				35CE1097E30E4742AFF61D7EA997B50E /* PBXTargetDependency */,
+				6837AAD2DE1580CBB1D47F1AD214C3B7 /* PBXTargetDependency */,
+			);
+			name = ZohoDeskPortalChat;
+		};
+		C218130FB03FE124507B913824A9D94E /* ZDThemeKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 606C7F07148F3FBBE68F6BCC09023F58 /* Build configuration list for PBXAggregateTarget "ZDThemeKit" */;
+			buildPhases = (
+				8416A9E3A560B4072D69AA3E4CE6996D /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = ZDThemeKit;
+		};
+		C80D515020C758245B6C405D75A33F13 /* ZohoDeskPortalCommunity */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5D620825003471730263A8464325A594 /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalCommunity" */;
+			buildPhases = (
+				424114B541E57E70543A3ECB0F559102 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				26A6086C2E72A666889756710BE44D2E /* PBXTargetDependency */,
+				AF1BE2C35067CA916897C1023EA1C68B /* PBXTargetDependency */,
+				26B7BB80ED7AD6C44DD32BB0604DC29B /* PBXTargetDependency */,
+			);
+			name = ZohoDeskPortalCommunity;
+		};
+		E18035864E044A64FF0C7334AD0D8914 /* ZohoDeskPortalKB */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EC51C459727DB92DECC1E6E1BCDE1FFA /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalKB" */;
+			buildPhases = (
+				AAAEFAEEBC251FF90C2F794585815737 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				78058CE12586FCB8798F04A6BB645396 /* PBXTargetDependency */,
+				7AEA8CF1890BB2252B59A36DD46F85C9 /* PBXTargetDependency */,
+				012CFE7E292E182622B3C706BFA0C554 /* PBXTargetDependency */,
+			);
+			name = ZohoDeskPortalKB;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		3132B750C846A4189F49F993B3F17B89 /* Pods-ZDPortalSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F671296A992E3E6BF2C496F018C865BD /* Pods-ZDPortalSDKDemo-dummy.m */; };
-		870D70571AF38A7E4564F56C830529F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B71E862678B718C7AB846C3A4386F5E8 /* Pods-ZDPortalSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 115D82811A543BE442ABB06E031217C7 /* Pods-ZDPortalSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BF780B1DE4B5E824C914AA3546CA59D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A0C8647C78DF0D74D3B97F3D8FA3AE9F /* Pods-ZDPortalSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1E0FA5EE90CF3385358712788A956F /* Pods-ZDPortalSDKDemo-dummy.m */; };
+		DA040C04F02D0E7C7364C4133CD9E92A /* Pods-ZDPortalSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF632D7AAC61AE219DE3FE56ADE9EE9B /* Pods-ZDPortalSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		004A0E9562B0F5D33602E00A53BD938B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B5B61ACF4B326ABDFB661DEC9FAF9D6;
+			remoteInfo = ZohoDeskPortalAPIKit;
+		};
+		0370B086CAC54377328C99135C734F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5C30D04C621DC622EAE68D28A4F256;
+			remoteInfo = ZohoDeskPortalTicket;
+		};
+		0488B21B0E7463947644E64FA2ED96A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B4704FCF2FDD8861A71AAB8F61AE0D;
+			remoteInfo = ZohoDeskPortalChat;
+		};
+		062C585413E66213CE02C568956E4DAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B5B61ACF4B326ABDFB661DEC9FAF9D6;
+			remoteInfo = ZohoDeskPortalAPIKit;
+		};
+		0C464A22C155555660101A9501DEDF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 122B28C3EC01BD5CDA68092F03C1A28C;
+			remoteInfo = ZohoDeskPortalCore;
+		};
+		0F66A4056AEB8C3F599AA03C68ACDCCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107473B09AC7199ABF49595F26CABA7C;
+			remoteInfo = ZohoDeskPortalConfiguration;
+		};
+		109E7B87D06BE1E6F6FF6191D7817276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00EC2AD6427FA09B610EE15B46245BB9;
+			remoteInfo = Mobilisten;
+		};
+		19E9ACA26084277D486FD8C83838DC48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C218130FB03FE124507B913824A9D94E;
+			remoteInfo = ZDThemeKit;
+		};
+		1CE5E722DBEDF93F30D7857674CF907B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B5B61ACF4B326ABDFB661DEC9FAF9D6;
+			remoteInfo = ZohoDeskPortalAPIKit;
+		};
+		1E8EEDDDBC1294AA5B1658ADDBB8DD20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107473B09AC7199ABF49595F26CABA7C;
+			remoteInfo = ZohoDeskPortalConfiguration;
+		};
+		23AD53921567E4DCBA448DF694DE004F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C218130FB03FE124507B913824A9D94E;
+			remoteInfo = ZDThemeKit;
+		};
+		297A993607B3DAC124E689D336A745CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C218130FB03FE124507B913824A9D94E;
+			remoteInfo = ZDThemeKit;
+		};
+		3025B9CB7709C20BDDCF6D66C04AD1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C218130FB03FE124507B913824A9D94E;
+			remoteInfo = ZDThemeKit;
+		};
+		3684FBFDAA7228FAF59434BE52273398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C218130FB03FE124507B913824A9D94E;
+			remoteInfo = ZDThemeKit;
+		};
+		37816D5E0E5454EE1904CE8563330146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107473B09AC7199ABF49595F26CABA7C;
+			remoteInfo = ZohoDeskPortalConfiguration;
+		};
+		388433EACD061CC5E56AE1951F9180C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 122B28C3EC01BD5CDA68092F03C1A28C;
+			remoteInfo = ZohoDeskPortalCore;
+		};
+		3892E22F3CD91B5E519B19FE3194EBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107473B09AC7199ABF49595F26CABA7C;
+			remoteInfo = ZohoDeskPortalConfiguration;
+		};
+		3A8A742457994FFCBCE7ACB280F3959E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B5B61ACF4B326ABDFB661DEC9FAF9D6;
+			remoteInfo = ZohoDeskPortalAPIKit;
+		};
+		3C5958FC5C70D4792388FC7A65F53CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00EC2AD6427FA09B610EE15B46245BB9;
+			remoteInfo = Mobilisten;
+		};
+		4816DEFF6BD295BD50551F85284A33F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107473B09AC7199ABF49595F26CABA7C;
+			remoteInfo = ZohoDeskPortalConfiguration;
+		};
+		59FC0C52480C84AD6097DDC17620DA2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C218130FB03FE124507B913824A9D94E;
+			remoteInfo = ZDThemeKit;
+		};
+		5C4B60E68088C713D92D80E70AB728DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B5B61ACF4B326ABDFB661DEC9FAF9D6;
+			remoteInfo = ZohoDeskPortalAPIKit;
+		};
+		63CC2D38AC2483CB7683F1FB69D8C062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B5B61ACF4B326ABDFB661DEC9FAF9D6;
+			remoteInfo = ZohoDeskPortalAPIKit;
+		};
+		6E0685CF6DB496A32905B95C775EC37F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E18035864E044A64FF0C7334AD0D8914;
+			remoteInfo = ZohoDeskPortalKB;
+		};
+		7735DA48715FD87EBC3611442152F3F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C218130FB03FE124507B913824A9D94E;
+			remoteInfo = ZDThemeKit;
+		};
+		808FA4A041B32832A37A59287AB80219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C218130FB03FE124507B913824A9D94E;
+			remoteInfo = ZDThemeKit;
+		};
+		928B91BDBEECCA5EBB7D19F29E6DB339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80D515020C758245B6C405D75A33F13;
+			remoteInfo = ZohoDeskPortalCommunity;
+		};
+		983323F0F3750DAB2266F4C4E7ABCFCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5C30D04C621DC622EAE68D28A4F256;
+			remoteInfo = ZohoDeskPortalTicket;
+		};
+		BD3AE45C73589D4A9E89159F419AED8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B5B61ACF4B326ABDFB661DEC9FAF9D6;
+			remoteInfo = ZohoDeskPortalAPIKit;
+		};
+		C9601894AE166F228A3DF98CB0D50A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80D515020C758245B6C405D75A33F13;
+			remoteInfo = ZohoDeskPortalCommunity;
+		};
+		CC7FCACD7BC10AC04562D07635302DA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107473B09AC7199ABF49595F26CABA7C;
+			remoteInfo = ZohoDeskPortalConfiguration;
+		};
+		D0FA59FCCCD9555C158B0D9024CBCFDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B4704FCF2FDD8861A71AAB8F61AE0D;
+			remoteInfo = ZohoDeskPortalChat;
+		};
+		D32D3B0610ECF2E8E1C604128C441660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D10CD1CFAB13D0549E3704F73D7120;
+			remoteInfo = ZohoDeskPortalServices;
+		};
+		D45600C9DA0F7056C7A0878BA72B5D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B5B61ACF4B326ABDFB661DEC9FAF9D6;
+			remoteInfo = ZohoDeskPortalAPIKit;
+		};
+		D6A8568D905E234E34B8BB9C7CD717E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E18035864E044A64FF0C7334AD0D8914;
+			remoteInfo = ZohoDeskPortalKB;
+		};
+		D8635FD7C041D43768129B16C0FBC8FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E18035864E044A64FF0C7334AD0D8914;
+			remoteInfo = ZohoDeskPortalKB;
+		};
+		DEB6E4EA4D9733677F15DB988A290260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107473B09AC7199ABF49595F26CABA7C;
+			remoteInfo = ZohoDeskPortalConfiguration;
+		};
+		F34B828D827FFA4BFABA37169E5A76C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80D515020C758245B6C405D75A33F13;
+			remoteInfo = ZohoDeskPortalCommunity;
+		};
+		F944795F154C29D808CAB3438867EE25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5C30D04C621DC622EAE68D28A4F256;
+			remoteInfo = ZohoDeskPortalTicket;
+		};
+		FA84862972128E6BF90B9A3C22FB50D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00EC2AD6427FA09B610EE15B46245BB9;
+			remoteInfo = Mobilisten;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		115D82811A543BE442ABB06E031217C7 /* Pods-ZDPortalSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDPortalSDKDemo-umbrella.h"; sourceTree = "<group>"; };
-		181F4F8E1857C8A9B4A291E50CDCF2E7 /* Pods-ZDPortalSDKDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDPortalSDKDemo-resources.sh"; sourceTree = "<group>"; };
-		1C1622F5009D9AEA79E2FF2C820C0BAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		368CF1A563445280649D6B588D95B830 /* Pods-ZDPortalSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDPortalSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		4DB987E9414A7952456922F1352A978A /* Pods-ZDPortalSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZDPortalSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		53491061822605AD0EFBE6F3C573BDAA /* Pods-ZDPortalSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDPortalSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		61250115684A2C7176A2B2C743CB3933 /* Pods-ZDPortalSDKDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDPortalSDKDemo-frameworks.sh"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73E308E795308809A8B9011716FCCD50 /* Pods_ZDPortalSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZDPortalSDKDemo.framework; path = "Pods-ZDPortalSDKDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B51BC0CA90B3514CF5A402952EE1D77B /* Pods-ZDPortalSDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZDPortalSDKDemo.modulemap"; sourceTree = "<group>"; };
-		F671296A992E3E6BF2C496F018C865BD /* Pods-ZDPortalSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDPortalSDKDemo-dummy.m"; sourceTree = "<group>"; };
-		FD85EC1BE763067753B9675AD8D589A5 /* Pods-ZDPortalSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDPortalSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		01DFF5DB177823ACF3158FE24E4BED71 /* Pods-ZDPortalSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDPortalSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0242DD90E2FFF7BE06A460920F201BEB /* ZohoDeskPortalCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalCore.debug.xcconfig; sourceTree = "<group>"; };
+		03287AA9BEDFD3DC943044BA68016EF0 /* ZohoDeskPortalServices-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZohoDeskPortalServices-xcframeworks.sh"; sourceTree = "<group>"; };
+		04C49AD7B58E9E04E57260A1687BC7B9 /* LDPEX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPEX.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDPEX.h"; sourceTree = "<group>"; };
+		06ADAA51B7369A0C6207B208E09137DD /* LDWmsService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDWmsService.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDWmsService.h"; sourceTree = "<group>"; };
+		06DF85E2C88F9F243ED572E05BAB429B /* LDWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDWebSocket.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDWebSocket.h"; sourceTree = "<group>"; };
+		07258FBF473BE12A6FC888B599F5A2F1 /* LDCustomChatApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDCustomChatApi.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDCustomChatApi.h"; sourceTree = "<group>"; };
+		07C7432AAC13E22F55CB1728A4AD66A3 /* LDWMSPEXAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDWMSPEXAdapter.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDWMSPEXAdapter.h"; sourceTree = "<group>"; };
+		0890F9BACE75118F5648264DF1F73D5C /* SIQKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIQKeyboardAvoidingTableView.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/SIQKeyboardAvoidingTableView.h"; sourceTree = "<group>"; };
+		093930CF6E3E23A9E5D9D560F4C10220 /* LDWMSOperationCallBack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDWMSOperationCallBack.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDWMSOperationCallBack.h"; sourceTree = "<group>"; };
+		093D815FE8EBEE14B0B925B3CB85C20B /* LDChatMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDChatMessage.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDChatMessage.h"; sourceTree = "<group>"; };
+		093E843B950DEF7E189288CB11504261 /* LDSwiftTryCatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDSwiftTryCatch.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDSwiftTryCatch.h"; sourceTree = "<group>"; };
+		0A2F2DBBCD5B0CD683A5D863A24B4BB3 /* LDWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDWebSocket.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDWebSocket.h"; sourceTree = "<group>"; };
+		0A767B00ACD231085A5DDEC104782367 /* LDContactsHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDContactsHandler.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDContactsHandler.h"; sourceTree = "<group>"; };
+		0FB572AE9F547E8351FFCDA419C5C50C /* LDTazHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDTazHandler.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDTazHandler.h"; sourceTree = "<group>"; };
+		11845ED617077ED388A5EA10673DFBF2 /* ZohoDeskPortalAPIKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZohoDeskPortalAPIKit-xcframeworks.sh"; sourceTree = "<group>"; };
+		12AB6CF1B3D234AA1D98450AD3C8BFEA /* LDWmsService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDWmsService.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDWmsService.h"; sourceTree = "<group>"; };
+		1483337AD5C23561D7FCA786EFAD5520 /* ZohoDeskPortalAPIKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ZohoDeskPortalAPIKit.xcframework; sourceTree = "<group>"; };
+		1544A798AB4635B617EF0046359E8312 /* LDPresenceGroupApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPresenceGroupApi.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDPresenceGroupApi.h"; sourceTree = "<group>"; };
+		162281281F27CBAF883535A62441502F /* UTSUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UTSUtil.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/UTSUtil.h"; sourceTree = "<group>"; };
+		1793C5E544BDFED36E412C5EE81496D2 /* LDWMSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDWMSLogger.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDWMSLogger.h"; sourceTree = "<group>"; };
+		197D8AD220199883C4B87DA263CAF9E1 /* LDPexAdaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPexAdaptor.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDPexAdaptor.h"; sourceTree = "<group>"; };
+		1A473C609C55E7DF6B07244DE28AFE30 /* asl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asl.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/asl.h"; sourceTree = "<group>"; };
+		1A50667E1CEEA65612358524CF4B55B7 /* LDWMSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDWMSLogger.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDWMSLogger.h"; sourceTree = "<group>"; };
+		1AC36D1813BA075B0FEABE5853A46D2E /* LDCustomChatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDCustomChatHandler.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDCustomChatHandler.h"; sourceTree = "<group>"; };
+		1D612DC2D4D4CD00DF689EDF937307E5 /* LDMessageInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDMessageInterface.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDMessageInterface.h"; sourceTree = "<group>"; };
+		1EA0BA2E0172CD1B21CD55A49A3568B4 /* LDCollaborationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDCollaborationHandler.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDCollaborationHandler.h"; sourceTree = "<group>"; };
+		1EC13B9B3EC95B963521E50096D2B9B9 /* UIScrollView+SIQKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SIQKeyboardAvoidingAdditions.h"; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/UIScrollView+SIQKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		2015837640426F5CDD30EE722961A521 /* ZohoDeskPortalServices.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ZohoDeskPortalServices.xcframework; sourceTree = "<group>"; };
+		21E0FB76719B5B21CD8813C6CF2913C4 /* ZDThemeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZDThemeKit.release.xcconfig; sourceTree = "<group>"; };
+		2237FA4C1A4081008E20060C37542763 /* LDApiHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDApiHeaders.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDApiHeaders.h"; sourceTree = "<group>"; };
+		24F8F05FA46443C55B61CDD2666720B7 /* Mobilisten.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mobilisten.release.xcconfig; sourceTree = "<group>"; };
+		26E6043E7FCBFA1930AE2F299935C8BC /* LDPresenceGroupHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPresenceGroupHandler.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDPresenceGroupHandler.h"; sourceTree = "<group>"; };
+		2C521785E0F415387D039E09C4200F3E /* ZohoDeskPortalKB.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ZohoDeskPortalKB.xcframework; sourceTree = "<group>"; };
+		2EF068E341CC62796F54DAFBA4EA5D20 /* LDBaseChatApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDBaseChatApi.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDBaseChatApi.h"; sourceTree = "<group>"; };
+		3098B1303B942FF8C69BDF746147F777 /* LCPEXHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCPEXHeader.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LCPEXHeader.h"; sourceTree = "<group>"; };
+		31E10568D392722445560F8FFF90A337 /* SIQFLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIQFLAnimatedImage.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/SIQFLAnimatedImage.h"; sourceTree = "<group>"; };
+		339359F2B00A6C6788009DC7B748EB84 /* LDSRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDSRWebSocket.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDSRWebSocket.h"; sourceTree = "<group>"; };
+		3487A7E35FC9BA57D720A662A7B932E4 /* Mobilisten-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Mobilisten-Swift.h"; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/Mobilisten-Swift.h"; sourceTree = "<group>"; };
+		367019AA713B5F9376A7490C3631D300 /* UTSUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UTSUtil.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/UTSUtil.h"; sourceTree = "<group>"; };
+		36EF5C9BD5A729EAB85826C3687568A9 /* ZohoDeskPortalServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalServices.debug.xcconfig; sourceTree = "<group>"; };
+		39A46E6598BCB8FFA9BA0C8CA1BB2360 /* LDPEXLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPEXLibrary.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDPEXLibrary.h"; sourceTree = "<group>"; };
+		3A2A314C908A45EBB1F355F7C533C3B4 /* LDLibProps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDLibProps.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDLibProps.h"; sourceTree = "<group>"; };
+		3F1831E1C75975A44E2ABF15789935AF /* Mobilisten.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Mobilisten.xcframework; sourceTree = "<group>"; };
+		43582EA874A056F9CF9E9C31588419D7 /* LDWMSUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDWMSUtil.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDWMSUtil.h"; sourceTree = "<group>"; };
+		43EE6D6D727D2E91AC3BA8E8EF7EB34F /* LDWmsConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDWmsConfig.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDWmsConfig.h"; sourceTree = "<group>"; };
+		44592A420E0DA0414B16FCBAC97E22CE /* Pods-ZDPortalSDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZDPortalSDKDemo.modulemap"; sourceTree = "<group>"; };
+		4827B9D141EFD72C3E1E34933B4DD49A /* ZohoDeskPortalTicket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalTicket.release.xcconfig; sourceTree = "<group>"; };
+		48CB0792F24658F353C7B9F4180C47E0 /* LDPEXException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPEXException.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDPEXException.h"; sourceTree = "<group>"; };
+		4939DAC843FA59EA56685C76C6DD77A3 /* UTSMessageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UTSMessageHandler.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/UTSMessageHandler.h"; sourceTree = "<group>"; };
+		4AC1666DAD77A2B3C2FD81F90D80EBC8 /* ZohoDeskPortalServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalServices.release.xcconfig; sourceTree = "<group>"; };
+		4D76EAC046C4C7F9AF6589A79D46B67F /* LDCollaborationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDCollaborationHandler.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDCollaborationHandler.h"; sourceTree = "<group>"; };
+		4E7D8C41217279C983DDF5C203A1D280 /* LDZohoMessenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZohoMessenger.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDZohoMessenger.h"; sourceTree = "<group>"; };
+		4EF5EEEA842766F9BF23DFCB05B3FB82 /* LDCustomChatApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDCustomChatApi.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDCustomChatApi.h"; sourceTree = "<group>"; };
+		4F5D23D324071D0E038ECBFE2895F533 /* ZohoDeskPortalChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalChat.release.xcconfig; sourceTree = "<group>"; };
+		5481A9CBBCACF7880A8F605BBDC7F35E /* LDZohoService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZohoService.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDZohoService.h"; sourceTree = "<group>"; };
+		54A44BEDD717D71049AEE44AF22474A1 /* LDCollaborationApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDCollaborationApi.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDCollaborationApi.h"; sourceTree = "<group>"; };
+		54D8743FADE4CB773D14C792D00D3B08 /* SIQKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIQKeyboardAvoidingScrollView.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/SIQKeyboardAvoidingScrollView.h"; sourceTree = "<group>"; };
+		56073888AAA2C648828ADD760D155633 /* LDMessageInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDMessageInterface.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDMessageInterface.h"; sourceTree = "<group>"; };
+		594EBCA7991FF9AA2B240D7525BD1DC7 /* LDUserStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDUserStatus.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDUserStatus.h"; sourceTree = "<group>"; };
+		5AE51D2D4559D14C11E16294B09AA494 /* Mobilisten.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mobilisten.debug.xcconfig; sourceTree = "<group>"; };
+		5B0B31E75A8320F9ABF29117143248AF /* LDUnexposedHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDUnexposedHeaders.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDUnexposedHeaders.h"; sourceTree = "<group>"; };
+		5E4D3A15F578CFEEC27B4F3E1DDFB89B /* ZohoDeskPortalTicket.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ZohoDeskPortalTicket.xcframework; sourceTree = "<group>"; };
+		617B82924842372AF7F70499BDE1CF6F /* LDChannelHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDChannelHandler.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDChannelHandler.h"; sourceTree = "<group>"; };
+		62D095BA4F8F155711249DE1F4FC81BA /* LDServiceChatApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDServiceChatApi.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDServiceChatApi.h"; sourceTree = "<group>"; };
+		66A418E017740F0C120B43568E927086 /* LDWmsConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDWmsConfig.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDWmsConfig.h"; sourceTree = "<group>"; };
+		67BCE01F2B2CB10E60EEC489F497F7B3 /* LDPexHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPexHeader.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDPexHeader.h"; sourceTree = "<group>"; };
+		69A5DB17543C510354B87B70F7C6E389 /* LDServiceChatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDServiceChatHandler.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDServiceChatHandler.h"; sourceTree = "<group>"; };
+		6B0E250AB91BA88910B526852C750B88 /* LCPEXHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCPEXHeader.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LCPEXHeader.h"; sourceTree = "<group>"; };
+		6B165043D7F1DADC52D968FD2638E885 /* Pods_ZDPortalSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZDPortalSDKDemo.framework; path = "Pods-ZDPortalSDKDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E36F6DA140CACF348069537963C94BD /* LDLiveChatEmbed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDLiveChatEmbed.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDLiveChatEmbed.h"; sourceTree = "<group>"; };
+		6E8E1236F07CDC3DACCC6A21A37A0AE6 /* LDLibProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDLibProperty.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDLibProperty.h"; sourceTree = "<group>"; };
+		6F59D32A0AD71A8DCFA08C3FFECE272F /* Pods-ZDPortalSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDPortalSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F9DB0E037CCD27E6637AE9023B1E42C /* UTSMessageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UTSMessageHandler.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/UTSMessageHandler.h"; sourceTree = "<group>"; };
+		7013EEE57A7296AF1CEB53E049CD4891 /* LDTazHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDTazHandler.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDTazHandler.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		732429356E66670D0697CA1678953255 /* LDChatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDChatHandler.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDChatHandler.h"; sourceTree = "<group>"; };
+		73FCBAB2674DF861177290E7A8EA10D0 /* LDPEXLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPEXLibrary.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDPEXLibrary.h"; sourceTree = "<group>"; };
+		74F045A89D0F6109C0AB117A642C8A55 /* LDMessageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDMessageHandler.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDMessageHandler.h"; sourceTree = "<group>"; };
+		74FFF38F56863ADA897FDA86C3FC0887 /* ZohoDeskPortalTicket-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZohoDeskPortalTicket-xcframeworks.sh"; sourceTree = "<group>"; };
+		751CE4C35C788122F15CF62319350A88 /* UTS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UTS.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/UTS.h"; sourceTree = "<group>"; };
+		76199FF9ADED87847E15940A337BF261 /* LDChatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDChatHandler.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDChatHandler.h"; sourceTree = "<group>"; };
+		79FE64FB1710ADF09365DD8C7A698159 /* LDWMSOperationCallBack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDWMSOperationCallBack.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDWMSOperationCallBack.h"; sourceTree = "<group>"; };
+		7A1C5581E911EB72E9950877C404BFFB /* ZohoDeskPortalCommunity.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ZohoDeskPortalCommunity.xcframework; sourceTree = "<group>"; };
+		7B2E9FE17B00FE749304A05675E672C3 /* LDPexHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPexHeader.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDPexHeader.h"; sourceTree = "<group>"; };
+		8251ACF34811E231F0A6F68BE812F09B /* LDZohoMessenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZohoMessenger.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDZohoMessenger.h"; sourceTree = "<group>"; };
+		82DE62F1301139E787FA0A17C06C77C2 /* LDServiceChatApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDServiceChatApi.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDServiceChatApi.h"; sourceTree = "<group>"; };
+		86767571AC6BD06086277FE7B8A6E095 /* ZohoDeskPortalConfiguration.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ZohoDeskPortalConfiguration.xcframework; sourceTree = "<group>"; };
+		86F013183841AB06A36A1AB3C06E0492 /* LDLibProps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDLibProps.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDLibProps.h"; sourceTree = "<group>"; };
+		8AC151C7024A8D6C4653E92AFF41748B /* UTSAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UTSAdapter.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/UTSAdapter.h"; sourceTree = "<group>"; };
+		8DF230F9CE67BFEA89A0E1C801D90256 /* SIQFLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIQFLAnimatedImage.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/SIQFLAnimatedImage.h"; sourceTree = "<group>"; };
+		8E7BDFC21E3839B6C664991045BA3F3B /* ZohoDeskPortalCommunity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalCommunity.debug.xcconfig; sourceTree = "<group>"; };
+		8ED7482FE9448ED3D06A7F301461BC6D /* ZohoDeskPortalChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalChat.debug.xcconfig; sourceTree = "<group>"; };
+		93411D04669501F1E0111FF4FEFF0275 /* LDWMSPEXAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDWMSPEXAdapter.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDWMSPEXAdapter.h"; sourceTree = "<group>"; };
+		93F2BFB4E5AE17C3BB09EED4756C251A /* Pods-ZDPortalSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDPortalSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		94E2DD427A2DC9F70C6115B03F538ED2 /* UIScrollView+SIQKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SIQKeyboardAvoidingAdditions.h"; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/UIScrollView+SIQKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		95FA4B023688D8FCDBA5B95D8BF26AAC /* LDCollaborationApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDCollaborationApi.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDCollaborationApi.h"; sourceTree = "<group>"; };
+		96F069169E47F9183A645A24E4CC5758 /* SIQKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIQKeyboardAvoidingScrollView.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/SIQKeyboardAvoidingScrollView.h"; sourceTree = "<group>"; };
+		97EB608DE8A6845ADD345E94C25BBA10 /* LDBaseChatApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDBaseChatApi.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDBaseChatApi.h"; sourceTree = "<group>"; };
+		9AB64E9F0B4535C4D80B873831AE9247 /* ZohoDeskPortalCommunity-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZohoDeskPortalCommunity-xcframeworks.sh"; sourceTree = "<group>"; };
+		9B8930D94B1EFDDB4CBE66A83C98ADC5 /* LDEntityChatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDEntityChatHandler.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDEntityChatHandler.h"; sourceTree = "<group>"; };
+		9C7E78B39B437E8A872ED46CC02F41B0 /* ZohoDeskPortalKB-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZohoDeskPortalKB-xcframeworks.sh"; sourceTree = "<group>"; };
+		9C884AD01925BB7CE15A04FE6B0A043D /* ZohoDeskPortalCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ZohoDeskPortalCore.xcframework; sourceTree = "<group>"; };
+		9D36AC02A2CA915174EAA3EDF1ABF4F3 /* LDMType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDMType.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDMType.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DEE99853E0212CF1579CAA01E2DF6D2 /* ZohoDeskPortalConfiguration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalConfiguration.debug.xcconfig; sourceTree = "<group>"; };
+		A30F9C6FE7AC483AADC576B51907D849 /* Mobilisten.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mobilisten.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/Mobilisten.h"; sourceTree = "<group>"; };
+		A31E847B7D9A48D7858C670EBE79BF38 /* LDMessageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDMessageHandler.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDMessageHandler.h"; sourceTree = "<group>"; };
+		A4A03F304CAB6BFC5B92C2CD235B6EEF /* LCReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCReachability.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LCReachability.h"; sourceTree = "<group>"; };
+		A4BF61FD77A32CCD8401C13D0B503869 /* Mobilisten-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Mobilisten-xcframeworks.sh"; sourceTree = "<group>"; };
+		A65C47D771732F804C41B4DBDA3E991D /* LDSessionConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDSessionConfig.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDSessionConfig.h"; sourceTree = "<group>"; };
+		A6D83F1983E883EA305AE715BBDAADC1 /* ZohoDeskPortalAPIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalAPIKit.debug.xcconfig; sourceTree = "<group>"; };
+		A9CFC3DE58DE5077CC02D71BB3AA0F54 /* ZDThemeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZDThemeKit.debug.xcconfig; sourceTree = "<group>"; };
+		AA17E1F9E77D221E095C06793C2176E0 /* ZohoDeskPortalKB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalKB.release.xcconfig; sourceTree = "<group>"; };
+		AB3A9AE7A06858D1ACEFBB4B06E3E93C /* LDWMSUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDWMSUtil.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDWMSUtil.h"; sourceTree = "<group>"; };
+		AB9200499BD6DD1FE57286A38FDEFCF4 /* LDEntityChatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDEntityChatHandler.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDEntityChatHandler.h"; sourceTree = "<group>"; };
+		ABC5C3F3EACE8AED555674D00E779538 /* LDContactsHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDContactsHandler.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDContactsHandler.h"; sourceTree = "<group>"; };
+		AD541557C54AF292CA879CEB1F7553CB /* ZohoDeskPortalChat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ZohoDeskPortalChat.xcframework; sourceTree = "<group>"; };
+		AEB91156759773A9F35CEBF55B11693C /* LCReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCReachability.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LCReachability.h"; sourceTree = "<group>"; };
+		AF1E0FA5EE90CF3385358712788A956F /* Pods-ZDPortalSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDPortalSDKDemo-dummy.m"; sourceTree = "<group>"; };
+		B0B9F5D03AE9FD48547C9B57FE004CCC /* LDPresenceGroupApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPresenceGroupApi.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDPresenceGroupApi.h"; sourceTree = "<group>"; };
+		B5D3EEB953C2D5B5DC1CF703152D04F9 /* LDMType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDMType.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDMType.h"; sourceTree = "<group>"; };
+		B5F3034D4DC97DE3F48CBE89DEC0C0EA /* SIQFLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIQFLAnimatedImageView.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/SIQFLAnimatedImageView.h"; sourceTree = "<group>"; };
+		B8064356A352F7252066060DB1F6D845 /* SIQKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIQKeyboardAvoidingTableView.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/SIQKeyboardAvoidingTableView.h"; sourceTree = "<group>"; };
+		B85D3D8FD3C662E44244DA021CFB1C51 /* ZohoDeskPortalConfiguration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalConfiguration.release.xcconfig; sourceTree = "<group>"; };
+		BBD83867F6F2438752454F76A276C534 /* ZohoDeskPortalTicket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalTicket.debug.xcconfig; sourceTree = "<group>"; };
+		BC3CD3DCCEBD0E1FE59894DF5687D7E3 /* ZohoDeskPortalChat-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZohoDeskPortalChat-xcframeworks.sh"; sourceTree = "<group>"; };
+		BC77F6B6AB232EF571D98869553828B0 /* UTSAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UTSAdapter.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/UTSAdapter.h"; sourceTree = "<group>"; };
+		BE8711736855BCD74D5EAC946FE7155B /* SIQKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIQKeyboardAvoidingCollectionView.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/SIQKeyboardAvoidingCollectionView.h"; sourceTree = "<group>"; };
+		BF632D7AAC61AE219DE3FE56ADE9EE9B /* Pods-ZDPortalSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDPortalSDKDemo-umbrella.h"; sourceTree = "<group>"; };
+		C096F606283AEA63B9F3591BE14BC428 /* Pods-ZDPortalSDKDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDPortalSDKDemo-Info.plist"; sourceTree = "<group>"; };
+		C3CCCFD0BE000D679D63E190EB12C173 /* LDSRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDSRWebSocket.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDSRWebSocket.h"; sourceTree = "<group>"; };
+		C488F0B4E9F11D231C26BE92CFB5C42F /* LDApiHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDApiHeaders.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDApiHeaders.h"; sourceTree = "<group>"; };
+		C4DD07BA75854D9A2B61AE80865704E1 /* LDSessionConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDSessionConfig.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDSessionConfig.h"; sourceTree = "<group>"; };
+		C545C06D3EB8907D7FAEB90A13B2340F /* LDLibProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDLibProperty.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDLibProperty.h"; sourceTree = "<group>"; };
+		C56D0227896FA37F150962BC07E9EC8B /* LDUnexposedHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDUnexposedHeaders.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDUnexposedHeaders.h"; sourceTree = "<group>"; };
+		C606514C26EAB47FD48F8608B7C23F30 /* LDChatInfoMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDChatInfoMessage.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDChatInfoMessage.h"; sourceTree = "<group>"; };
+		CB238B1E4CA045BF7F3C13A510F37D02 /* ZDThemeKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZDThemeKit-xcframeworks.sh"; sourceTree = "<group>"; };
+		CB88B03698F835A5358BD35100AD401E /* ZohoDeskPortalCore-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZohoDeskPortalCore-xcframeworks.sh"; sourceTree = "<group>"; };
+		CDD9D4D68F781354F9E086FA341FBB64 /* LDPresenceGroupHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPresenceGroupHandler.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDPresenceGroupHandler.h"; sourceTree = "<group>"; };
+		D026389B3E7B2229B8983DD32AC802E3 /* LDCustomChatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDCustomChatHandler.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDCustomChatHandler.h"; sourceTree = "<group>"; };
+		D104C67446622E0547DD8E332F255F44 /* LDChatApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDChatApi.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDChatApi.h"; sourceTree = "<group>"; };
+		D163A6A59521641B7237BC4A94EF0BDD /* ZohoDeskPortalCommunity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalCommunity.release.xcconfig; sourceTree = "<group>"; };
+		D2612DB2CD1DCABED11FD7FDA89749BE /* LDChatMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDChatMessage.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDChatMessage.h"; sourceTree = "<group>"; };
+		D304831927241FA20B31AF140E073D74 /* LDPexAdaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPexAdaptor.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDPexAdaptor.h"; sourceTree = "<group>"; };
+		D3EF126C2C4A81EC348B4A4556577D6B /* LDChannelHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDChannelHandler.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDChannelHandler.h"; sourceTree = "<group>"; };
+		D436AC7F62C72C455E4B0B5F27DA7AAF /* Pods-ZDPortalSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZDPortalSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D540AA7D6BBF65E3803B337729F7171E /* ZDThemeKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ZDThemeKit.xcframework; sourceTree = "<group>"; };
+		D643C21487A60CE7C0F343E464F5F715 /* ZohoDeskPortalKB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalKB.debug.xcconfig; sourceTree = "<group>"; };
+		DC79C3592BD3687619229C3EAAAB89A3 /* UTS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UTS.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/UTS.h"; sourceTree = "<group>"; };
+		E5E35AC88D2A3BA3C670A489FEC122CB /* LDSwiftTryCatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDSwiftTryCatch.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDSwiftTryCatch.h"; sourceTree = "<group>"; };
+		E79D4CFD368E6F4752048CB22BF21E63 /* LDPEXException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPEXException.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDPEXException.h"; sourceTree = "<group>"; };
+		EE97F794B6255537359646D2877847E0 /* LDUserStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDUserStatus.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDUserStatus.h"; sourceTree = "<group>"; };
+		F03BB6A525E3FD731EAC34757B71141E /* LDChatInfoMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDChatInfoMessage.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDChatInfoMessage.h"; sourceTree = "<group>"; };
+		F2E7F3B04616D941CC152DEBF9FF994C /* SIQKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIQKeyboardAvoidingCollectionView.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/SIQKeyboardAvoidingCollectionView.h"; sourceTree = "<group>"; };
+		F3FE88C253FB22531D48A5850FF19B41 /* LDChatApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDChatApi.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDChatApi.h"; sourceTree = "<group>"; };
+		F47F1AF5B4320E236BC06B3984166291 /* Mobilisten-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Mobilisten-Swift.h"; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/Mobilisten-Swift.h"; sourceTree = "<group>"; };
+		F4EF631A9968FED92AED1483C9ED5BB4 /* SIQFLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIQFLAnimatedImageView.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/SIQFLAnimatedImageView.h"; sourceTree = "<group>"; };
+		F52E47034FCA5395C38468D46EED84AF /* LDZohoService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZohoService.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDZohoService.h"; sourceTree = "<group>"; };
+		F68509E4B9A193E13C5818C2F456E860 /* Mobilisten.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mobilisten.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/Mobilisten.h"; sourceTree = "<group>"; };
+		F76E30010CD29E076B1653965B58C7E5 /* LDPEX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDPEX.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDPEX.h"; sourceTree = "<group>"; };
+		F9D71E2B6B9996A50430A920D1B1F270 /* ZohoDeskPortalAPIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalAPIKit.release.xcconfig; sourceTree = "<group>"; };
+		FB54EC27ABA0E721AD3148862DA28F01 /* asl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asl.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/asl.h"; sourceTree = "<group>"; };
+		FC67326ACAF58DDF595B5B16F4B76E14 /* ZohoDeskPortalCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZohoDeskPortalCore.release.xcconfig; sourceTree = "<group>"; };
+		FC6D75E6E87E27F902004896B7FEF093 /* LDServiceChatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDServiceChatHandler.h; path = "Mobilisten.xcframework/ios-arm64_i386_x86_64-simulator/Mobilisten.framework/Headers/LDServiceChatHandler.h"; sourceTree = "<group>"; };
+		FDAC1FC6E4860170FDA568539DAE18D7 /* Pods-ZDPortalSDKDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDPortalSDKDemo-frameworks.sh"; sourceTree = "<group>"; };
+		FEADB04A7528B945606506F32DD6A261 /* LDLiveChatEmbed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDLiveChatEmbed.h; path = "Mobilisten.xcframework/ios-arm64_armv7/Mobilisten.framework/Headers/LDLiveChatEmbed.h"; sourceTree = "<group>"; };
+		FF00C20A236D5F298AD1585F0566154E /* ZohoDeskPortalConfiguration-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ZohoDeskPortalConfiguration-xcframeworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21FFCCD87E0115073F256307D9DAA5D5 /* Frameworks */ = {
+		AB2E003E324FF9DDA9F14147661B7F49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				870D70571AF38A7E4564F56C830529F0 /* Foundation.framework in Frameworks */,
+				9BF780B1DE4B5E824C914AA3546CA59D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7DB346D0F39D3F0E887471402A8071AB = {
+		007DA553DCEDB74937D1F1F7F88F0277 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B1CCFD3BFFAA6735AE2271E875B63000 /* Products */,
-				FAB87072B31ECEE8E4C2281EC9DC7B54 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		B1CCFD3BFFAA6735AE2271E875B63000 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				73E308E795308809A8B9011716FCCD50 /* Pods_ZDPortalSDKDemo.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				1483337AD5C23561D7FCA786EFAD5520 /* ZohoDeskPortalAPIKit.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		0CB7736442437396B47F142A60DE1D3A /* ZohoDeskPortalServices */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				CBB6838A9B15C0FE571B7B2DEF383E17 /* Frameworks */,
+				BB808ED681BE60B48A794E0F04B17CDB /* Support Files */,
 			);
-			name = iOS;
+			name = ZohoDeskPortalServices;
+			path = ZohoDeskPortalServices;
 			sourceTree = "<group>";
 		};
-		EE768993DCA3F43DFECDEBC44DAE7001 /* Pods-ZDPortalSDKDemo */ = {
+		0D86AFA4E9F48D45CC32EB0EC2AE3892 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1C1622F5009D9AEA79E2FF2C820C0BAD /* Info.plist */,
-				B51BC0CA90B3514CF5A402952EE1D77B /* Pods-ZDPortalSDKDemo.modulemap */,
-				4DB987E9414A7952456922F1352A978A /* Pods-ZDPortalSDKDemo-acknowledgements.markdown */,
-				368CF1A563445280649D6B588D95B830 /* Pods-ZDPortalSDKDemo-acknowledgements.plist */,
-				F671296A992E3E6BF2C496F018C865BD /* Pods-ZDPortalSDKDemo-dummy.m */,
-				61250115684A2C7176A2B2C743CB3933 /* Pods-ZDPortalSDKDemo-frameworks.sh */,
-				181F4F8E1857C8A9B4A291E50CDCF2E7 /* Pods-ZDPortalSDKDemo-resources.sh */,
-				115D82811A543BE442ABB06E031217C7 /* Pods-ZDPortalSDKDemo-umbrella.h */,
-				FD85EC1BE763067753B9675AD8D589A5 /* Pods-ZDPortalSDKDemo.debug.xcconfig */,
-				53491061822605AD0EFBE6F3C573BDAA /* Pods-ZDPortalSDKDemo.release.xcconfig */,
+				7A1C5581E911EB72E9950877C404BFFB /* ZohoDeskPortalCommunity.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BD45BB0D40F33F303F54F1B9E65E0DC /* Pods-ZDPortalSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				44592A420E0DA0414B16FCBAC97E22CE /* Pods-ZDPortalSDKDemo.modulemap */,
+				D436AC7F62C72C455E4B0B5F27DA7AAF /* Pods-ZDPortalSDKDemo-acknowledgements.markdown */,
+				6F59D32A0AD71A8DCFA08C3FFECE272F /* Pods-ZDPortalSDKDemo-acknowledgements.plist */,
+				AF1E0FA5EE90CF3385358712788A956F /* Pods-ZDPortalSDKDemo-dummy.m */,
+				FDAC1FC6E4860170FDA568539DAE18D7 /* Pods-ZDPortalSDKDemo-frameworks.sh */,
+				C096F606283AEA63B9F3591BE14BC428 /* Pods-ZDPortalSDKDemo-Info.plist */,
+				BF632D7AAC61AE219DE3FE56ADE9EE9B /* Pods-ZDPortalSDKDemo-umbrella.h */,
+				93F2BFB4E5AE17C3BB09EED4756C251A /* Pods-ZDPortalSDKDemo.debug.xcconfig */,
+				01DFF5DB177823ACF3158FE24E4BED71 /* Pods-ZDPortalSDKDemo.release.xcconfig */,
 			);
 			name = "Pods-ZDPortalSDKDemo";
 			path = "Target Support Files/Pods-ZDPortalSDKDemo";
 			sourceTree = "<group>";
 		};
-		FAB87072B31ECEE8E4C2281EC9DC7B54 /* Targets Support Files */ = {
+		2311FDA24105E7839961E2FC45A42BF7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EE768993DCA3F43DFECDEBC44DAE7001 /* Pods-ZDPortalSDKDemo */,
+				CB88B03698F835A5358BD35100AD401E /* ZohoDeskPortalCore-xcframeworks.sh */,
+				0242DD90E2FFF7BE06A460920F201BEB /* ZohoDeskPortalCore.debug.xcconfig */,
+				FC67326ACAF58DDF595B5B16F4B76E14 /* ZohoDeskPortalCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZohoDeskPortalCore";
+			sourceTree = "<group>";
+		};
+		2BC4CB4D93AAB7F4E006FA8A9977A85F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C7E78B39B437E8A872ED46CC02F41B0 /* ZohoDeskPortalKB-xcframeworks.sh */,
+				D643C21487A60CE7C0F343E464F5F715 /* ZohoDeskPortalKB.debug.xcconfig */,
+				AA17E1F9E77D221E095C06793C2176E0 /* ZohoDeskPortalKB.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZohoDeskPortalKB";
+			sourceTree = "<group>";
+		};
+		2E83CBFAA6284A41B2E743A0C2ECE707 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D540AA7D6BBF65E3803B337729F7171E /* ZDThemeKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		344018455F620CD46D4E6B405E94C2E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C521785E0F415387D039E09C4200F3E /* ZohoDeskPortalKB.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48DC6EB809F75449FB00C1C464E1048A /* ZohoDeskPortalChat */ = {
+			isa = PBXGroup;
+			children = (
+				F559A45DD9E5099D627D4308E8E1CC77 /* Frameworks */,
+				4BE2CC75AB849D3A8FE96B187D2F67D7 /* Support Files */,
+			);
+			name = ZohoDeskPortalChat;
+			path = ZohoDeskPortalChat;
+			sourceTree = "<group>";
+		};
+		4BE2CC75AB849D3A8FE96B187D2F67D7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3CD3DCCEBD0E1FE59894DF5687D7E3 /* ZohoDeskPortalChat-xcframeworks.sh */,
+				8ED7482FE9448ED3D06A7F301461BC6D /* ZohoDeskPortalChat.debug.xcconfig */,
+				4F5D23D324071D0E038ECBFE2895F533 /* ZohoDeskPortalChat.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZohoDeskPortalChat";
+			sourceTree = "<group>";
+		};
+		4EFED14F99292CEECB27DD52514A348D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF00C20A236D5F298AD1585F0566154E /* ZohoDeskPortalConfiguration-xcframeworks.sh */,
+				9DEE99853E0212CF1579CAA01E2DF6D2 /* ZohoDeskPortalConfiguration.debug.xcconfig */,
+				B85D3D8FD3C662E44244DA021CFB1C51 /* ZohoDeskPortalConfiguration.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZohoDeskPortalConfiguration";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E06EA0CE179A032C7BE7C8D451D0031 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E4D3A15F578CFEEC27B4F3E1DDFB89B /* ZohoDeskPortalTicket.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6830D0A88EB1B90503FC0AE8C5C93009 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11845ED617077ED388A5EA10673DFBF2 /* ZohoDeskPortalAPIKit-xcframeworks.sh */,
+				A6D83F1983E883EA305AE715BBDAADC1 /* ZohoDeskPortalAPIKit.debug.xcconfig */,
+				F9D71E2B6B9996A50430A920D1B1F270 /* ZohoDeskPortalAPIKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZohoDeskPortalAPIKit";
+			sourceTree = "<group>";
+		};
+		7D48AA0A70D7CBFFB43F3BF13DF3424F /* ZohoDeskPortalConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				DB4D32282862DE9C78C934B30A57E1A4 /* Frameworks */,
+				4EFED14F99292CEECB27DD52514A348D /* Support Files */,
+			);
+			name = ZohoDeskPortalConfiguration;
+			path = ZohoDeskPortalConfiguration;
+			sourceTree = "<group>";
+		};
+		973F9DBAA251927376485D2F801989CA /* Mobilisten */ = {
+			isa = PBXGroup;
+			children = (
+				FB54EC27ABA0E721AD3148862DA28F01 /* asl.h */,
+				1A473C609C55E7DF6B07244DE28AFE30 /* asl.h */,
+				3098B1303B942FF8C69BDF746147F777 /* LCPEXHeader.h */,
+				6B0E250AB91BA88910B526852C750B88 /* LCPEXHeader.h */,
+				AEB91156759773A9F35CEBF55B11693C /* LCReachability.h */,
+				A4A03F304CAB6BFC5B92C2CD235B6EEF /* LCReachability.h */,
+				C488F0B4E9F11D231C26BE92CFB5C42F /* LDApiHeaders.h */,
+				2237FA4C1A4081008E20060C37542763 /* LDApiHeaders.h */,
+				2EF068E341CC62796F54DAFBA4EA5D20 /* LDBaseChatApi.h */,
+				97EB608DE8A6845ADD345E94C25BBA10 /* LDBaseChatApi.h */,
+				617B82924842372AF7F70499BDE1CF6F /* LDChannelHandler.h */,
+				D3EF126C2C4A81EC348B4A4556577D6B /* LDChannelHandler.h */,
+				D104C67446622E0547DD8E332F255F44 /* LDChatApi.h */,
+				F3FE88C253FB22531D48A5850FF19B41 /* LDChatApi.h */,
+				732429356E66670D0697CA1678953255 /* LDChatHandler.h */,
+				76199FF9ADED87847E15940A337BF261 /* LDChatHandler.h */,
+				F03BB6A525E3FD731EAC34757B71141E /* LDChatInfoMessage.h */,
+				C606514C26EAB47FD48F8608B7C23F30 /* LDChatInfoMessage.h */,
+				D2612DB2CD1DCABED11FD7FDA89749BE /* LDChatMessage.h */,
+				093D815FE8EBEE14B0B925B3CB85C20B /* LDChatMessage.h */,
+				54A44BEDD717D71049AEE44AF22474A1 /* LDCollaborationApi.h */,
+				95FA4B023688D8FCDBA5B95D8BF26AAC /* LDCollaborationApi.h */,
+				4D76EAC046C4C7F9AF6589A79D46B67F /* LDCollaborationHandler.h */,
+				1EA0BA2E0172CD1B21CD55A49A3568B4 /* LDCollaborationHandler.h */,
+				ABC5C3F3EACE8AED555674D00E779538 /* LDContactsHandler.h */,
+				0A767B00ACD231085A5DDEC104782367 /* LDContactsHandler.h */,
+				4EF5EEEA842766F9BF23DFCB05B3FB82 /* LDCustomChatApi.h */,
+				07258FBF473BE12A6FC888B599F5A2F1 /* LDCustomChatApi.h */,
+				1AC36D1813BA075B0FEABE5853A46D2E /* LDCustomChatHandler.h */,
+				D026389B3E7B2229B8983DD32AC802E3 /* LDCustomChatHandler.h */,
+				9B8930D94B1EFDDB4CBE66A83C98ADC5 /* LDEntityChatHandler.h */,
+				AB9200499BD6DD1FE57286A38FDEFCF4 /* LDEntityChatHandler.h */,
+				6E8E1236F07CDC3DACCC6A21A37A0AE6 /* LDLibProperty.h */,
+				C545C06D3EB8907D7FAEB90A13B2340F /* LDLibProperty.h */,
+				3A2A314C908A45EBB1F355F7C533C3B4 /* LDLibProps.h */,
+				86F013183841AB06A36A1AB3C06E0492 /* LDLibProps.h */,
+				6E36F6DA140CACF348069537963C94BD /* LDLiveChatEmbed.h */,
+				FEADB04A7528B945606506F32DD6A261 /* LDLiveChatEmbed.h */,
+				74F045A89D0F6109C0AB117A642C8A55 /* LDMessageHandler.h */,
+				A31E847B7D9A48D7858C670EBE79BF38 /* LDMessageHandler.h */,
+				56073888AAA2C648828ADD760D155633 /* LDMessageInterface.h */,
+				1D612DC2D4D4CD00DF689EDF937307E5 /* LDMessageInterface.h */,
+				B5D3EEB953C2D5B5DC1CF703152D04F9 /* LDMType.h */,
+				9D36AC02A2CA915174EAA3EDF1ABF4F3 /* LDMType.h */,
+				04C49AD7B58E9E04E57260A1687BC7B9 /* LDPEX.h */,
+				F76E30010CD29E076B1653965B58C7E5 /* LDPEX.h */,
+				197D8AD220199883C4B87DA263CAF9E1 /* LDPexAdaptor.h */,
+				D304831927241FA20B31AF140E073D74 /* LDPexAdaptor.h */,
+				E79D4CFD368E6F4752048CB22BF21E63 /* LDPEXException.h */,
+				48CB0792F24658F353C7B9F4180C47E0 /* LDPEXException.h */,
+				67BCE01F2B2CB10E60EEC489F497F7B3 /* LDPexHeader.h */,
+				7B2E9FE17B00FE749304A05675E672C3 /* LDPexHeader.h */,
+				73FCBAB2674DF861177290E7A8EA10D0 /* LDPEXLibrary.h */,
+				39A46E6598BCB8FFA9BA0C8CA1BB2360 /* LDPEXLibrary.h */,
+				1544A798AB4635B617EF0046359E8312 /* LDPresenceGroupApi.h */,
+				B0B9F5D03AE9FD48547C9B57FE004CCC /* LDPresenceGroupApi.h */,
+				CDD9D4D68F781354F9E086FA341FBB64 /* LDPresenceGroupHandler.h */,
+				26E6043E7FCBFA1930AE2F299935C8BC /* LDPresenceGroupHandler.h */,
+				62D095BA4F8F155711249DE1F4FC81BA /* LDServiceChatApi.h */,
+				82DE62F1301139E787FA0A17C06C77C2 /* LDServiceChatApi.h */,
+				FC6D75E6E87E27F902004896B7FEF093 /* LDServiceChatHandler.h */,
+				69A5DB17543C510354B87B70F7C6E389 /* LDServiceChatHandler.h */,
+				C4DD07BA75854D9A2B61AE80865704E1 /* LDSessionConfig.h */,
+				A65C47D771732F804C41B4DBDA3E991D /* LDSessionConfig.h */,
+				C3CCCFD0BE000D679D63E190EB12C173 /* LDSRWebSocket.h */,
+				339359F2B00A6C6788009DC7B748EB84 /* LDSRWebSocket.h */,
+				093E843B950DEF7E189288CB11504261 /* LDSwiftTryCatch.h */,
+				E5E35AC88D2A3BA3C670A489FEC122CB /* LDSwiftTryCatch.h */,
+				7013EEE57A7296AF1CEB53E049CD4891 /* LDTazHandler.h */,
+				0FB572AE9F547E8351FFCDA419C5C50C /* LDTazHandler.h */,
+				5B0B31E75A8320F9ABF29117143248AF /* LDUnexposedHeaders.h */,
+				C56D0227896FA37F150962BC07E9EC8B /* LDUnexposedHeaders.h */,
+				594EBCA7991FF9AA2B240D7525BD1DC7 /* LDUserStatus.h */,
+				EE97F794B6255537359646D2877847E0 /* LDUserStatus.h */,
+				0A2F2DBBCD5B0CD683A5D863A24B4BB3 /* LDWebSocket.h */,
+				06DF85E2C88F9F243ED572E05BAB429B /* LDWebSocket.h */,
+				43EE6D6D727D2E91AC3BA8E8EF7EB34F /* LDWmsConfig.h */,
+				66A418E017740F0C120B43568E927086 /* LDWmsConfig.h */,
+				1A50667E1CEEA65612358524CF4B55B7 /* LDWMSLogger.h */,
+				1793C5E544BDFED36E412C5EE81496D2 /* LDWMSLogger.h */,
+				093930CF6E3E23A9E5D9D560F4C10220 /* LDWMSOperationCallBack.h */,
+				79FE64FB1710ADF09365DD8C7A698159 /* LDWMSOperationCallBack.h */,
+				93411D04669501F1E0111FF4FEFF0275 /* LDWMSPEXAdapter.h */,
+				07C7432AAC13E22F55CB1728A4AD66A3 /* LDWMSPEXAdapter.h */,
+				06ADAA51B7369A0C6207B208E09137DD /* LDWmsService.h */,
+				12AB6CF1B3D234AA1D98450AD3C8BFEA /* LDWmsService.h */,
+				43582EA874A056F9CF9E9C31588419D7 /* LDWMSUtil.h */,
+				AB3A9AE7A06858D1ACEFBB4B06E3E93C /* LDWMSUtil.h */,
+				4E7D8C41217279C983DDF5C203A1D280 /* LDZohoMessenger.h */,
+				8251ACF34811E231F0A6F68BE812F09B /* LDZohoMessenger.h */,
+				F52E47034FCA5395C38468D46EED84AF /* LDZohoService.h */,
+				5481A9CBBCACF7880A8F605BBDC7F35E /* LDZohoService.h */,
+				A30F9C6FE7AC483AADC576B51907D849 /* Mobilisten.h */,
+				F68509E4B9A193E13C5818C2F456E860 /* Mobilisten.h */,
+				F47F1AF5B4320E236BC06B3984166291 /* Mobilisten-Swift.h */,
+				3487A7E35FC9BA57D720A662A7B932E4 /* Mobilisten-Swift.h */,
+				31E10568D392722445560F8FFF90A337 /* SIQFLAnimatedImage.h */,
+				8DF230F9CE67BFEA89A0E1C801D90256 /* SIQFLAnimatedImage.h */,
+				B5F3034D4DC97DE3F48CBE89DEC0C0EA /* SIQFLAnimatedImageView.h */,
+				F4EF631A9968FED92AED1483C9ED5BB4 /* SIQFLAnimatedImageView.h */,
+				F2E7F3B04616D941CC152DEBF9FF994C /* SIQKeyboardAvoidingCollectionView.h */,
+				BE8711736855BCD74D5EAC946FE7155B /* SIQKeyboardAvoidingCollectionView.h */,
+				96F069169E47F9183A645A24E4CC5758 /* SIQKeyboardAvoidingScrollView.h */,
+				54D8743FADE4CB773D14C792D00D3B08 /* SIQKeyboardAvoidingScrollView.h */,
+				B8064356A352F7252066060DB1F6D845 /* SIQKeyboardAvoidingTableView.h */,
+				0890F9BACE75118F5648264DF1F73D5C /* SIQKeyboardAvoidingTableView.h */,
+				1EC13B9B3EC95B963521E50096D2B9B9 /* UIScrollView+SIQKeyboardAvoidingAdditions.h */,
+				94E2DD427A2DC9F70C6115B03F538ED2 /* UIScrollView+SIQKeyboardAvoidingAdditions.h */,
+				DC79C3592BD3687619229C3EAAAB89A3 /* UTS.h */,
+				751CE4C35C788122F15CF62319350A88 /* UTS.h */,
+				BC77F6B6AB232EF571D98869553828B0 /* UTSAdapter.h */,
+				8AC151C7024A8D6C4653E92AFF41748B /* UTSAdapter.h */,
+				4939DAC843FA59EA56685C76C6DD77A3 /* UTSMessageHandler.h */,
+				6F9DB0E037CCD27E6637AE9023B1E42C /* UTSMessageHandler.h */,
+				162281281F27CBAF883535A62441502F /* UTSUtil.h */,
+				367019AA713B5F9376A7490C3631D300 /* UTSUtil.h */,
+				9FBEDC9556D1D96A82A6FCE530D57909 /* Frameworks */,
+				9AF47A31F75F72670921EC236894C76F /* Support Files */,
+			);
+			name = Mobilisten;
+			path = Mobilisten;
+			sourceTree = "<group>";
+		};
+		9AF47A31F75F72670921EC236894C76F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4BF61FD77A32CCD8401C13D0B503869 /* Mobilisten-xcframeworks.sh */,
+				5AE51D2D4559D14C11E16294B09AA494 /* Mobilisten.debug.xcconfig */,
+				24F8F05FA46443C55B61CDD2666720B7 /* Mobilisten.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mobilisten";
+			sourceTree = "<group>";
+		};
+		9B062AD66B31A12F07AF9C1E6B4A6616 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				973F9DBAA251927376485D2F801989CA /* Mobilisten */,
+				FCF8F4B3EEF2ACC8AAE7FE03967CF7EE /* ZDThemeKit */,
+				A043583662A9B4F1AD01B3F48DE0E669 /* ZohoDeskPortalAPIKit */,
+				48DC6EB809F75449FB00C1C464E1048A /* ZohoDeskPortalChat */,
+				B874C8B328DA1255CBC711DF0E1099F7 /* ZohoDeskPortalCommunity */,
+				7D48AA0A70D7CBFFB43F3BF13DF3424F /* ZohoDeskPortalConfiguration */,
+				AD1E72066A93A1F5EB82EB5FA1ECF3CD /* ZohoDeskPortalCore */,
+				AFD07D0C77608B6349F62F2AAEF4CDD5 /* ZohoDeskPortalKB */,
+				0CB7736442437396B47F142A60DE1D3A /* ZohoDeskPortalServices */,
+				EDE4F48A5DE791B76CEAC3972FB805EA /* ZohoDeskPortalTicket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FBEDC9556D1D96A82A6FCE530D57909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F1831E1C75975A44E2ABF15789935AF /* Mobilisten.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A043583662A9B4F1AD01B3F48DE0E669 /* ZohoDeskPortalAPIKit */ = {
+			isa = PBXGroup;
+			children = (
+				007DA553DCEDB74937D1F1F7F88F0277 /* Frameworks */,
+				6830D0A88EB1B90503FC0AE8C5C93009 /* Support Files */,
+			);
+			name = ZohoDeskPortalAPIKit;
+			path = ZohoDeskPortalAPIKit;
+			sourceTree = "<group>";
+		};
+		A27B641C0BCED84AF51B22923F7CDBD3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB238B1E4CA045BF7F3C13A510F37D02 /* ZDThemeKit-xcframeworks.sh */,
+				A9CFC3DE58DE5077CC02D71BB3AA0F54 /* ZDThemeKit.debug.xcconfig */,
+				21E0FB76719B5B21CD8813C6CF2913C4 /* ZDThemeKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZDThemeKit";
+			sourceTree = "<group>";
+		};
+		AD1E72066A93A1F5EB82EB5FA1ECF3CD /* ZohoDeskPortalCore */ = {
+			isa = PBXGroup;
+			children = (
+				C4955C223D031F5C28586577CFCF4CF7 /* Frameworks */,
+				2311FDA24105E7839961E2FC45A42BF7 /* Support Files */,
+			);
+			name = ZohoDeskPortalCore;
+			path = ZohoDeskPortalCore;
+			sourceTree = "<group>";
+		};
+		AFD07D0C77608B6349F62F2AAEF4CDD5 /* ZohoDeskPortalKB */ = {
+			isa = PBXGroup;
+			children = (
+				344018455F620CD46D4E6B405E94C2E7 /* Frameworks */,
+				2BC4CB4D93AAB7F4E006FA8A9977A85F /* Support Files */,
+			);
+			name = ZohoDeskPortalKB;
+			path = ZohoDeskPortalKB;
+			sourceTree = "<group>";
+		};
+		B34ECE09945325802DF7A01D8E950917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B165043D7F1DADC52D968FD2638E885 /* Pods_ZDPortalSDKDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7A9CEDD33292A08E55C4AFDF2B26DAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AB64E9F0B4535C4D80B873831AE9247 /* ZohoDeskPortalCommunity-xcframeworks.sh */,
+				8E7BDFC21E3839B6C664991045BA3F3B /* ZohoDeskPortalCommunity.debug.xcconfig */,
+				D163A6A59521641B7237BC4A94EF0BDD /* ZohoDeskPortalCommunity.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZohoDeskPortalCommunity";
+			sourceTree = "<group>";
+		};
+		B874C8B328DA1255CBC711DF0E1099F7 /* ZohoDeskPortalCommunity */ = {
+			isa = PBXGroup;
+			children = (
+				0D86AFA4E9F48D45CC32EB0EC2AE3892 /* Frameworks */,
+				B7A9CEDD33292A08E55C4AFDF2B26DAE /* Support Files */,
+			);
+			name = ZohoDeskPortalCommunity;
+			path = ZohoDeskPortalCommunity;
+			sourceTree = "<group>";
+		};
+		BB808ED681BE60B48A794E0F04B17CDB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03287AA9BEDFD3DC943044BA68016EF0 /* ZohoDeskPortalServices-xcframeworks.sh */,
+				36EF5C9BD5A729EAB85826C3687568A9 /* ZohoDeskPortalServices.debug.xcconfig */,
+				4AC1666DAD77A2B3C2FD81F90D80EBC8 /* ZohoDeskPortalServices.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZohoDeskPortalServices";
+			sourceTree = "<group>";
+		};
+		C4955C223D031F5C28586577CFCF4CF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C884AD01925BB7CE15A04FE6B0A043D /* ZohoDeskPortalCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBABAED59CBC3C8A50655961D3CDE7F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74FFF38F56863ADA897FDA86C3FC0887 /* ZohoDeskPortalTicket-xcframeworks.sh */,
+				BBD83867F6F2438752454F76A276C534 /* ZohoDeskPortalTicket.debug.xcconfig */,
+				4827B9D141EFD72C3E1E34933B4DD49A /* ZohoDeskPortalTicket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZohoDeskPortalTicket";
+			sourceTree = "<group>";
+		};
+		CBB6838A9B15C0FE571B7B2DEF383E17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2015837640426F5CDD30EE722961A521 /* ZohoDeskPortalServices.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9B062AD66B31A12F07AF9C1E6B4A6616 /* Pods */,
+				B34ECE09945325802DF7A01D8E950917 /* Products */,
+				D7088EF2445D275EDACC51B6ED2545D4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7088EF2445D275EDACC51B6ED2545D4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BD45BB0D40F33F303F54F1B9E65E0DC /* Pods-ZDPortalSDKDemo */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DB4D32282862DE9C78C934B30A57E1A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86767571AC6BD06086277FE7B8A6E095 /* ZohoDeskPortalConfiguration.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDE4F48A5DE791B76CEAC3972FB805EA /* ZohoDeskPortalTicket */ = {
+			isa = PBXGroup;
+			children = (
+				5E06EA0CE179A032C7BE7C8D451D0031 /* Frameworks */,
+				CBABAED59CBC3C8A50655961D3CDE7F0 /* Support Files */,
+			);
+			name = ZohoDeskPortalTicket;
+			path = ZohoDeskPortalTicket;
+			sourceTree = "<group>";
+		};
+		F559A45DD9E5099D627D4308E8E1CC77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD541557C54AF292CA879CEB1F7553CB /* ZohoDeskPortalChat.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCF8F4B3EEF2ACC8AAE7FE03967CF7EE /* ZDThemeKit */ = {
+			isa = PBXGroup;
+			children = (
+				2E83CBFAA6284A41B2E743A0C2ECE707 /* Frameworks */,
+				A27B641C0BCED84AF51B22923F7CDBD3 /* Support Files */,
+			);
+			name = ZDThemeKit;
+			path = ZDThemeKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		367DDA544963E904222443C033D1F44F /* Headers */ = {
+		1DC463CF74644A1DCD1D7F678C6DAC33 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B71E862678B718C7AB846C3A4386F5E8 /* Pods-ZDPortalSDKDemo-umbrella.h in Headers */,
+				DA040C04F02D0E7C7364C4133CD9E92A /* Pods-ZDPortalSDKDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A0EBDD356EEC04341CCCB13E61CA527A /* Pods-ZDPortalSDKDemo */ = {
+		925DD469D82F75154E6F9F57DAD2B0FB /* Pods-ZDPortalSDKDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A231F1B0D1D646ADD71BEF76FE1A644B /* Build configuration list for PBXNativeTarget "Pods-ZDPortalSDKDemo" */;
+			buildConfigurationList = CD5AA7DC71CE1CCF497F619FA783A76C /* Build configuration list for PBXNativeTarget "Pods-ZDPortalSDKDemo" */;
 			buildPhases = (
-				AE4AD59091507D953ACA3C0A38E746F0 /* Sources */,
-				21FFCCD87E0115073F256307D9DAA5D5 /* Frameworks */,
-				367DDA544963E904222443C033D1F44F /* Headers */,
+				1DC463CF74644A1DCD1D7F678C6DAC33 /* Headers */,
+				6BB5662E03111A29F50A372B715A5265 /* Sources */,
+				AB2E003E324FF9DDA9F14147661B7F49 /* Frameworks */,
+				C1D210D80937D9623D5F8FDF4408BB12 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				43D36CFC313278A0EA3B10B7F12FBEEE /* PBXTargetDependency */,
+				F17FFEBDBCE57A77DECF55A969C12FC5 /* PBXTargetDependency */,
+				342BF9077A9C8270FAC47CA826B72F12 /* PBXTargetDependency */,
+				34A077B431517310240F42E37E823FDC /* PBXTargetDependency */,
+				957217D598A78FE2FEC5EA6CDA062BD9 /* PBXTargetDependency */,
+				8F10F7F5DA666DFC72918E5E566823DA /* PBXTargetDependency */,
+				8BAFAE0FC490582F6F27F45703E9D5BA /* PBXTargetDependency */,
+				28149235CB8CB4B3817DA332CC364617 /* PBXTargetDependency */,
+				23AFC52D3DB6375E5F530A32C1C25DE2 /* PBXTargetDependency */,
+				E906039F2BAD93DE518519FC61673F62 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZDPortalSDKDemo";
 			productName = "Pods-ZDPortalSDKDemo";
-			productReference = 73E308E795308809A8B9011716FCCD50 /* Pods_ZDPortalSDKDemo.framework */;
+			productReference = 6B165043D7F1DADC52D968FD2638E885 /* Pods_ZDPortalSDKDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B1CCFD3BFFAA6735AE2271E875B63000 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B34ECE09945325802DF7A01D8E950917 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0EBDD356EEC04341CCCB13E61CA527A /* Pods-ZDPortalSDKDemo */,
+				00EC2AD6427FA09B610EE15B46245BB9 /* Mobilisten */,
+				925DD469D82F75154E6F9F57DAD2B0FB /* Pods-ZDPortalSDKDemo */,
+				C218130FB03FE124507B913824A9D94E /* ZDThemeKit */,
+				5B5B61ACF4B326ABDFB661DEC9FAF9D6 /* ZohoDeskPortalAPIKit */,
+				73B4704FCF2FDD8861A71AAB8F61AE0D /* ZohoDeskPortalChat */,
+				C80D515020C758245B6C405D75A33F13 /* ZohoDeskPortalCommunity */,
+				107473B09AC7199ABF49595F26CABA7C /* ZohoDeskPortalConfiguration */,
+				122B28C3EC01BD5CDA68092F03C1A28C /* ZohoDeskPortalCore */,
+				E18035864E044A64FF0C7334AD0D8914 /* ZohoDeskPortalKB */,
+				19D10CD1CFAB13D0549E3704F73D7120 /* ZohoDeskPortalServices */,
+				6E5C30D04C621DC622EAE68D28A4F256 /* ZohoDeskPortalTicket */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		C1D210D80937D9623D5F8FDF4408BB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		248375780D209CED745D60482066C09A /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalTicket/ZohoDeskPortalTicket-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalTicket/ZohoDeskPortalTicket-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZohoDeskPortalTicket/ZohoDeskPortalTicket-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		424114B541E57E70543A3ECB0F559102 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalCommunity/ZohoDeskPortalCommunity-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalCommunity/ZohoDeskPortalCommunity-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZohoDeskPortalCommunity/ZohoDeskPortalCommunity-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		511A83E4B285E2D6F72E10CD5C56B1E7 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalAPIKit/ZohoDeskPortalAPIKit-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalAPIKit/ZohoDeskPortalAPIKit-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZohoDeskPortalAPIKit/ZohoDeskPortalAPIKit-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CC0FE85196DD6389E9680DA3727B937 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalConfiguration/ZohoDeskPortalConfiguration-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalConfiguration/ZohoDeskPortalConfiguration-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZohoDeskPortalConfiguration/ZohoDeskPortalConfiguration-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69AD861E29CCFA74EA2E3AE5E01487FB /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalCore/ZohoDeskPortalCore-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalCore/ZohoDeskPortalCore-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZohoDeskPortalCore/ZohoDeskPortalCore-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F162C67EBA9B696AD72F8AC14DC4386 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalServices/ZohoDeskPortalServices-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalServices/ZohoDeskPortalServices-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZohoDeskPortalServices/ZohoDeskPortalServices-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8416A9E3A560B4072D69AA3E4CE6996D /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZDThemeKit/ZDThemeKit-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZDThemeKit/ZDThemeKit-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZDThemeKit/ZDThemeKit-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E20A6CB7DBFB8C3275033926977CCE3 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Mobilisten/Mobilisten-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Mobilisten/Mobilisten-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Mobilisten/Mobilisten-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAAEFAEEBC251FF90C2F794585815737 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalKB/ZohoDeskPortalKB-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalKB/ZohoDeskPortalKB-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZohoDeskPortalKB/ZohoDeskPortalKB-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F622899626819C91B714B968F2DD21C1 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalChat/ZohoDeskPortalChat-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ZohoDeskPortalChat/ZohoDeskPortalChat-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ZohoDeskPortalChat/ZohoDeskPortalChat-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		AE4AD59091507D953ACA3C0A38E746F0 /* Sources */ = {
+		6BB5662E03111A29F50A372B715A5265 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3132B750C846A4189F49F993B3F17B89 /* Pods-ZDPortalSDKDemo-dummy.m in Sources */,
+				A0C8647C78DF0D74D3B97F3D8FA3AE9F /* Pods-ZDPortalSDKDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		012CFE7E292E182622B3C706BFA0C554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalConfiguration;
+			target = 107473B09AC7199ABF49595F26CABA7C /* ZohoDeskPortalConfiguration */;
+			targetProxy = 1E8EEDDDBC1294AA5B1658ADDBB8DD20 /* PBXContainerItemProxy */;
+		};
+		02E805D0D2E192844C82C01076EB5729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalChat;
+			target = 73B4704FCF2FDD8861A71AAB8F61AE0D /* ZohoDeskPortalChat */;
+			targetProxy = D0FA59FCCCD9555C158B0D9024CBCFDB /* PBXContainerItemProxy */;
+		};
+		05E601C629C6CF5FAEF446647ECA59F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalCommunity;
+			target = C80D515020C758245B6C405D75A33F13 /* ZohoDeskPortalCommunity */;
+			targetProxy = 928B91BDBEECCA5EBB7D19F29E6DB339 /* PBXContainerItemProxy */;
+		};
+		0EC5F41BBE356923AEEADD68267B7941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalAPIKit;
+			target = 5B5B61ACF4B326ABDFB661DEC9FAF9D6 /* ZohoDeskPortalAPIKit */;
+			targetProxy = 1CE5E722DBEDF93F30D7857674CF907B /* PBXContainerItemProxy */;
+		};
+		1ACD5EECB44E302EDA9634B3BD9274CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZDThemeKit;
+			target = C218130FB03FE124507B913824A9D94E /* ZDThemeKit */;
+			targetProxy = 19E9ACA26084277D486FD8C83838DC48 /* PBXContainerItemProxy */;
+		};
+		1D5F82B487360E86C89C124F409BD30D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalConfiguration;
+			target = 107473B09AC7199ABF49595F26CABA7C /* ZohoDeskPortalConfiguration */;
+			targetProxy = 4816DEFF6BD295BD50551F85284A33F4 /* PBXContainerItemProxy */;
+		};
+		23AFC52D3DB6375E5F530A32C1C25DE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalServices;
+			target = 19D10CD1CFAB13D0549E3704F73D7120 /* ZohoDeskPortalServices */;
+			targetProxy = D32D3B0610ECF2E8E1C604128C441660 /* PBXContainerItemProxy */;
+		};
+		26A6086C2E72A666889756710BE44D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZDThemeKit;
+			target = C218130FB03FE124507B913824A9D94E /* ZDThemeKit */;
+			targetProxy = 59FC0C52480C84AD6097DDC17620DA2F /* PBXContainerItemProxy */;
+		};
+		26B7BB80ED7AD6C44DD32BB0604DC29B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalConfiguration;
+			target = 107473B09AC7199ABF49595F26CABA7C /* ZohoDeskPortalConfiguration */;
+			targetProxy = CC7FCACD7BC10AC04562D07635302DA0 /* PBXContainerItemProxy */;
+		};
+		28149235CB8CB4B3817DA332CC364617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalKB;
+			target = E18035864E044A64FF0C7334AD0D8914 /* ZohoDeskPortalKB */;
+			targetProxy = D6A8568D905E234E34B8BB9C7CD717E7 /* PBXContainerItemProxy */;
+		};
+		281B88FD988476D90F0E8C18454B3124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalCommunity;
+			target = C80D515020C758245B6C405D75A33F13 /* ZohoDeskPortalCommunity */;
+			targetProxy = F34B828D827FFA4BFABA37169E5A76C3 /* PBXContainerItemProxy */;
+		};
+		342BF9077A9C8270FAC47CA826B72F12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalAPIKit;
+			target = 5B5B61ACF4B326ABDFB661DEC9FAF9D6 /* ZohoDeskPortalAPIKit */;
+			targetProxy = BD3AE45C73589D4A9E89159F419AED8E /* PBXContainerItemProxy */;
+		};
+		34A077B431517310240F42E37E823FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalChat;
+			target = 73B4704FCF2FDD8861A71AAB8F61AE0D /* ZohoDeskPortalChat */;
+			targetProxy = 0488B21B0E7463947644E64FA2ED96A3 /* PBXContainerItemProxy */;
+		};
+		35CE1097E30E4742AFF61D7EA997B50E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalAPIKit;
+			target = 5B5B61ACF4B326ABDFB661DEC9FAF9D6 /* ZohoDeskPortalAPIKit */;
+			targetProxy = 63CC2D38AC2483CB7683F1FB69D8C062 /* PBXContainerItemProxy */;
+		};
+		3DE40B659A103672B8BB7B4F764DB3A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalAPIKit;
+			target = 5B5B61ACF4B326ABDFB661DEC9FAF9D6 /* ZohoDeskPortalAPIKit */;
+			targetProxy = 3A8A742457994FFCBCE7ACB280F3959E /* PBXContainerItemProxy */;
+		};
+		43D36CFC313278A0EA3B10B7F12FBEEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mobilisten;
+			target = 00EC2AD6427FA09B610EE15B46245BB9 /* Mobilisten */;
+			targetProxy = 109E7B87D06BE1E6F6FF6191D7817276 /* PBXContainerItemProxy */;
+		};
+		63B9636E8F694CB79F98E43B35CA0207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalConfiguration;
+			target = 107473B09AC7199ABF49595F26CABA7C /* ZohoDeskPortalConfiguration */;
+			targetProxy = 37816D5E0E5454EE1904CE8563330146 /* PBXContainerItemProxy */;
+		};
+		6837AAD2DE1580CBB1D47F1AD214C3B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalConfiguration;
+			target = 107473B09AC7199ABF49595F26CABA7C /* ZohoDeskPortalConfiguration */;
+			targetProxy = 0F66A4056AEB8C3F599AA03C68ACDCCB /* PBXContainerItemProxy */;
+		};
+		71EB39F52575131E6173DB5C41F890B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalTicket;
+			target = 6E5C30D04C621DC622EAE68D28A4F256 /* ZohoDeskPortalTicket */;
+			targetProxy = F944795F154C29D808CAB3438867EE25 /* PBXContainerItemProxy */;
+		};
+		78058CE12586FCB8798F04A6BB645396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZDThemeKit;
+			target = C218130FB03FE124507B913824A9D94E /* ZDThemeKit */;
+			targetProxy = 3684FBFDAA7228FAF59434BE52273398 /* PBXContainerItemProxy */;
+		};
+		78BA3AC24A1D0E7AE2164121542644E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalAPIKit;
+			target = 5B5B61ACF4B326ABDFB661DEC9FAF9D6 /* ZohoDeskPortalAPIKit */;
+			targetProxy = 062C585413E66213CE02C568956E4DAE /* PBXContainerItemProxy */;
+		};
+		7AEA8CF1890BB2252B59A36DD46F85C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalAPIKit;
+			target = 5B5B61ACF4B326ABDFB661DEC9FAF9D6 /* ZohoDeskPortalAPIKit */;
+			targetProxy = 5C4B60E68088C713D92D80E70AB728DA /* PBXContainerItemProxy */;
+		};
+		7B49CC9574764E86EA10FFC156CA05F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalConfiguration;
+			target = 107473B09AC7199ABF49595F26CABA7C /* ZohoDeskPortalConfiguration */;
+			targetProxy = 3892E22F3CD91B5E519B19FE3194EBEE /* PBXContainerItemProxy */;
+		};
+		8767D7D7C03AD2A4BA874BE1C4110C9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mobilisten;
+			target = 00EC2AD6427FA09B610EE15B46245BB9 /* Mobilisten */;
+			targetProxy = 3C5958FC5C70D4792388FC7A65F53CA0 /* PBXContainerItemProxy */;
+		};
+		8BAFAE0FC490582F6F27F45703E9D5BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalCore;
+			target = 122B28C3EC01BD5CDA68092F03C1A28C /* ZohoDeskPortalCore */;
+			targetProxy = 0C464A22C155555660101A9501DEDF56 /* PBXContainerItemProxy */;
+		};
+		8F10F7F5DA666DFC72918E5E566823DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalConfiguration;
+			target = 107473B09AC7199ABF49595F26CABA7C /* ZohoDeskPortalConfiguration */;
+			targetProxy = DEB6E4EA4D9733677F15DB988A290260 /* PBXContainerItemProxy */;
+		};
+		957217D598A78FE2FEC5EA6CDA062BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalCommunity;
+			target = C80D515020C758245B6C405D75A33F13 /* ZohoDeskPortalCommunity */;
+			targetProxy = C9601894AE166F228A3DF98CB0D50A01 /* PBXContainerItemProxy */;
+		};
+		AF1BE2C35067CA916897C1023EA1C68B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalAPIKit;
+			target = 5B5B61ACF4B326ABDFB661DEC9FAF9D6 /* ZohoDeskPortalAPIKit */;
+			targetProxy = 004A0E9562B0F5D33602E00A53BD938B /* PBXContainerItemProxy */;
+		};
+		CB71986D70A34B9A276772C6A386E2B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mobilisten;
+			target = 00EC2AD6427FA09B610EE15B46245BB9 /* Mobilisten */;
+			targetProxy = FA84862972128E6BF90B9A3C22FB50D3 /* PBXContainerItemProxy */;
+		};
+		CC62D36ECC45188A8768FCB8CF1D148C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZDThemeKit;
+			target = C218130FB03FE124507B913824A9D94E /* ZDThemeKit */;
+			targetProxy = 808FA4A041B32832A37A59287AB80219 /* PBXContainerItemProxy */;
+		};
+		CE197A50451E5B5FEE1827B6334EA49E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalTicket;
+			target = 6E5C30D04C621DC622EAE68D28A4F256 /* ZohoDeskPortalTicket */;
+			targetProxy = 983323F0F3750DAB2266F4C4E7ABCFCF /* PBXContainerItemProxy */;
+		};
+		D4B84E85E7C87837C249058CBBEE1243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalKB;
+			target = E18035864E044A64FF0C7334AD0D8914 /* ZohoDeskPortalKB */;
+			targetProxy = D8635FD7C041D43768129B16C0FBC8FA /* PBXContainerItemProxy */;
+		};
+		E053723A70C64327506756923FEE5194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZDThemeKit;
+			target = C218130FB03FE124507B913824A9D94E /* ZDThemeKit */;
+			targetProxy = 23AD53921567E4DCBA448DF694DE004F /* PBXContainerItemProxy */;
+		};
+		E0AC407B8EF346553725259FEDA8101A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalKB;
+			target = E18035864E044A64FF0C7334AD0D8914 /* ZohoDeskPortalKB */;
+			targetProxy = 6E0685CF6DB496A32905B95C775EC37F /* PBXContainerItemProxy */;
+		};
+		E85D89DB5773600B462F05ACDCF5F60A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalAPIKit;
+			target = 5B5B61ACF4B326ABDFB661DEC9FAF9D6 /* ZohoDeskPortalAPIKit */;
+			targetProxy = D45600C9DA0F7056C7A0878BA72B5D72 /* PBXContainerItemProxy */;
+		};
+		E906039F2BAD93DE518519FC61673F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalTicket;
+			target = 6E5C30D04C621DC622EAE68D28A4F256 /* ZohoDeskPortalTicket */;
+			targetProxy = 0370B086CAC54377328C99135C734F34 /* PBXContainerItemProxy */;
+		};
+		F17FFEBDBCE57A77DECF55A969C12FC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZDThemeKit;
+			target = C218130FB03FE124507B913824A9D94E /* ZDThemeKit */;
+			targetProxy = 7735DA48715FD87EBC3611442152F3F8 /* PBXContainerItemProxy */;
+		};
+		F99A405E5C41BF54723580A083C649C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZDThemeKit;
+			target = C218130FB03FE124507B913824A9D94E /* ZDThemeKit */;
+			targetProxy = 297A993607B3DAC124E689D336A745CF /* PBXContainerItemProxy */;
+		};
+		FCE1315668BB58B47EE620E2144A0A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZohoDeskPortalCore;
+			target = 122B28C3EC01BD5CDA68092F03C1A28C /* ZohoDeskPortalCore */;
+			targetProxy = 388433EACD061CC5E56AE1951F9180C3 /* PBXContainerItemProxy */;
+		};
+		FE9C7DEBF24C70A53FDCDD8DD6D775E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZDThemeKit;
+			target = C218130FB03FE124507B913824A9D94E /* ZDThemeKit */;
+			targetProxy = 3025B9CB7709C20BDDCF6D66C04AD1A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		10CAC36D54FFEEA813E2A4C4EEA7A48B /* Debug */ = {
+		168D21425CD8131C9BE618524C6F2BC0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD85EC1BE763067753B9675AD8D589A5 /* Pods-ZDPortalSDKDemo.debug.xcconfig */;
+			baseConfigurationReference = F9D71E2B6B9996A50430A920D1B1F270 /* ZohoDeskPortalAPIKit.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZDPortalSDKDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZDPortalSDKDemo/Pods-ZDPortalSDKDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B3B3D536415AAE873C56C1D1147FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D643C21487A60CE7C0F343E464F5F715 /* ZohoDeskPortalKB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E569450706A03ACCEE233D8A09D508B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53491061822605AD0EFBE6F3C573BDAA /* Pods-ZDPortalSDKDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZDPortalSDKDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZDPortalSDKDemo/Pods-ZDPortalSDKDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FA39F93BCC98288C75B07575327D1A76 /* Release */ = {
+		2F8F5A10E41E53360D98263F292D94D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -264,72 +1673,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		FEB52B20EEB50135A85E1727D4046F94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -350,37 +1700,580 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2FB6A241FA7588310C5EFD44CE606545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD83867F6F2438752454F76A276C534 /* ZohoDeskPortalTicket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		477F523924FB0E734BF4AEB2E43AD9D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4827B9D141EFD72C3E1E34933B4DD49A /* ZohoDeskPortalTicket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F9AE7FB4ACAB7722C091E1EFA9FF12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		56F449D757DEFA1CD50218BC94A2A84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01DFF5DB177823ACF3158FE24E4BED71 /* Pods-ZDPortalSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDPortalSDKDemo/Pods-ZDPortalSDKDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDPortalSDKDemo/Pods-ZDPortalSDKDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E0E11139C74D700949F9FAF5AADC42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85D3D8FD3C662E44244DA021CFB1C51 /* ZohoDeskPortalConfiguration.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76F62271643904978F2458C26DCA49DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36EF5C9BD5A729EAB85826C3687568A9 /* ZohoDeskPortalServices.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85B2394C6D240A65FD59EBF9F4A0EEB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0242DD90E2FFF7BE06A460920F201BEB /* ZohoDeskPortalCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86FF150C0E7F49C66B9E966C70177205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC67326ACAF58DDF595B5B16F4B76E14 /* ZohoDeskPortalCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8787F3C7979AE0C905C9D15F3F8730C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F2BFB4E5AE17C3BB09EED4756C251A /* Pods-ZDPortalSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDPortalSDKDemo/Pods-ZDPortalSDKDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDPortalSDKDemo/Pods-ZDPortalSDKDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97B0AEED2674FB1F6622395464CB6DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DEE99853E0212CF1579CAA01E2DF6D2 /* ZohoDeskPortalConfiguration.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CC13C187C73963A7AA1DC44E8E01AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E0FB76719B5B21CD8813C6CF2913C4 /* ZDThemeKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D9D49B370A5BDFFAC3D7D606DD73E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA17E1F9E77D221E095C06793C2176E0 /* ZohoDeskPortalKB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADFE64F8E2FF2750DE135A9728ECBD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC1666DAD77A2B3C2FD81F90D80EBC8 /* ZohoDeskPortalServices.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B864C89328C1CEA1CF777D7CEFF7C46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5D23D324071D0E038ECBFE2895F533 /* ZohoDeskPortalChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1051CF08038B3437D86407F22746140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F8F05FA46443C55B61CDD2666720B7 /* Mobilisten.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7CCBCA9B61C5C187B408561729ACB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9CFC3DE58DE5077CC02D71BB3AA0F54 /* ZDThemeKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E05CA3B9A1D4C38BBC161E5D8FC31923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AE51D2D4559D14C11E16294B09AA494 /* Mobilisten.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3971DFB30723A8EEEC3CDA1C192FB9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D163A6A59521641B7237BC4A94EF0BDD /* ZohoDeskPortalCommunity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF0D0E494BCE743DD9978A570B72D494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ED7482FE9448ED3D06A7F301461BC6D /* ZohoDeskPortalChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3FC60E0CA7F20A2DD1B4FEBDA49D055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D83F1983E883EA305AE715BBDAADC1 /* ZohoDeskPortalAPIKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCE3342E2CCD0F80E6673C6335F903C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E7BDFC21E3839B6C664991045BA3F3B /* ZohoDeskPortalCommunity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		1D4880E46CA9B7BBBDBA30FF4A7D302E /* Build configuration list for PBXAggregateTarget "Mobilisten" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEB52B20EEB50135A85E1727D4046F94 /* Debug */,
-				FA39F93BCC98288C75B07575327D1A76 /* Release */,
+				E05CA3B9A1D4C38BBC161E5D8FC31923 /* Debug */,
+				C1051CF08038B3437D86407F22746140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A231F1B0D1D646ADD71BEF76FE1A644B /* Build configuration list for PBXNativeTarget "Pods-ZDPortalSDKDemo" */ = {
+		26F701B0D4AE313ECA8CEA5433CA0EB2 /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalTicket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10CAC36D54FFEEA813E2A4C4EEA7A48B /* Debug */,
-				E569450706A03ACCEE233D8A09D508B6 /* Release */,
+				2FB6A241FA7588310C5EFD44CE606545 /* Debug */,
+				477F523924FB0E734BF4AEB2E43AD9D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8F5A10E41E53360D98263F292D94D1 /* Debug */,
+				4F9AE7FB4ACAB7722C091E1EFA9FF12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D620825003471730263A8464325A594 /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalCommunity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE3342E2CCD0F80E6673C6335F903C0 /* Debug */,
+				E3971DFB30723A8EEEC3CDA1C192FB9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606C7F07148F3FBBE68F6BCC09023F58 /* Build configuration list for PBXAggregateTarget "ZDThemeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CCBCA9B61C5C187B408561729ACB30 /* Debug */,
+				9CC13C187C73963A7AA1DC44E8E01AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		712A7A3C27BCBC16352B9CDDB0DBF48F /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalConfiguration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B0AEED2674FB1F6622395464CB6DEF /* Debug */,
+				6E0E11139C74D700949F9FAF5AADC42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86704A37A6FADB0D14FF45A3E0B9D829 /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0D0E494BCE743DD9978A570B72D494 /* Debug */,
+				B864C89328C1CEA1CF777D7CEFF7C46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93507F4BA9118DB635022F106A9BC77A /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalAPIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FC60E0CA7F20A2DD1B4FEBDA49D055 /* Debug */,
+				168D21425CD8131C9BE618524C6F2BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD2AEB8ABE5204BEF677732A4AD288C /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F62271643904978F2458C26DCA49DC /* Debug */,
+				ADFE64F8E2FF2750DE135A9728ECBD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5AA7DC71CE1CCF497F619FA783A76C /* Build configuration list for PBXNativeTarget "Pods-ZDPortalSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8787F3C7979AE0C905C9D15F3F8730C7 /* Debug */,
+				56F449D757DEFA1CD50218BC94A2A84F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E18C1B23508934377BA193FFF0F74FA7 /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B2394C6D240A65FD59EBF9F4A0EEB4 /* Debug */,
+				86FF150C0E7F49C66B9E966C70177205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC51C459727DB92DECC1E6E1BCDE1FFA /* Build configuration list for PBXAggregateTarget "ZohoDeskPortalKB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B3B3D536415AAE873C56C1D1147FCC /* Debug */,
+				9D9D49B370A5BDFFAC3D7D606DD73E58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

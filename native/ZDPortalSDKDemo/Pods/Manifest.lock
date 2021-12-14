@@ -1,3 +1,73 @@
-PODFILE CHECKSUM: bb0e218e791908e516132adfe009528aa43b4b49
+PODS:
+  - Mobilisten (4.2.1)
+  - ZDThemeKit (1.1)
+  - ZohoDeskPortalAPIKit (2.0.11)
+  - ZohoDeskPortalChat (2.0.11):
+    - Mobilisten (= 4.2.1)
+    - ZDThemeKit (= 1.1)
+    - ZohoDeskPortalAPIKit (= 2.0.11)
+    - ZohoDeskPortalConfiguration (= 2.0.11)
+  - ZohoDeskPortalCommunity (2.0.11):
+    - ZDThemeKit (= 1.1)
+    - ZohoDeskPortalAPIKit (= 2.0.11)
+    - ZohoDeskPortalConfiguration (= 2.0.11)
+  - ZohoDeskPortalConfiguration (2.0.11):
+    - ZDThemeKit (= 1.1)
+    - ZohoDeskPortalAPIKit (= 2.0.11)
+  - ZohoDeskPortalCore (2.0.11):
+    - ZDThemeKit (= 1.1)
+    - ZohoDeskPortalAPIKit (= 2.0.11)
+    - ZohoDeskPortalCommunity (= 2.0.11)
+    - ZohoDeskPortalConfiguration (= 2.0.11)
+    - ZohoDeskPortalKB (= 2.0.11)
+    - ZohoDeskPortalTicket (= 2.0.11)
+  - ZohoDeskPortalKB (2.0.11):
+    - ZDThemeKit (= 1.1)
+    - ZohoDeskPortalAPIKit (= 2.0.11)
+    - ZohoDeskPortalConfiguration (= 2.0.11)
+  - ZohoDeskPortalServices (2.0.11):
+    - Mobilisten (= 4.2.1)
+    - ZDThemeKit (= 1.1)
+    - ZohoDeskPortalAPIKit (= 2.0.11)
+    - ZohoDeskPortalChat (= 2.0.11)
+    - ZohoDeskPortalCommunity (= 2.0.11)
+    - ZohoDeskPortalConfiguration (= 2.0.11)
+    - ZohoDeskPortalCore (= 2.0.11)
+    - ZohoDeskPortalKB (= 2.0.11)
+    - ZohoDeskPortalTicket (= 2.0.11)
+  - ZohoDeskPortalTicket (2.0.11):
+    - ZDThemeKit (= 1.1)
+    - ZohoDeskPortalAPIKit (= 2.0.11)
+    - ZohoDeskPortalConfiguration (= 2.0.11)
 
-COCOAPODS: 1.5.3
+DEPENDENCIES:
+  - ZohoDeskPortalServices
+
+SPEC REPOS:
+  trunk:
+    - Mobilisten
+    - ZDThemeKit
+    - ZohoDeskPortalAPIKit
+    - ZohoDeskPortalChat
+    - ZohoDeskPortalCommunity
+    - ZohoDeskPortalConfiguration
+    - ZohoDeskPortalCore
+    - ZohoDeskPortalKB
+    - ZohoDeskPortalServices
+    - ZohoDeskPortalTicket
+
+SPEC CHECKSUMS:
+  Mobilisten: 3c94cb5d6dcb1dbd1360a2aeeacf7c26e3b27329
+  ZDThemeKit: ceea7c1ac8d90810a74c23db9f46f649e626f03b
+  ZohoDeskPortalAPIKit: 1ca3f2b58167403180151553ac850d73e083e8a7
+  ZohoDeskPortalChat: a1576e13c9c4e34ce8dfa0bf8eac2adf09878e39
+  ZohoDeskPortalCommunity: e585e92f86cfe3388a5c43b7897634c78b5ab75f
+  ZohoDeskPortalConfiguration: 2ad3a653189a4fe84e87d01061c82f7feaf7fbf1
+  ZohoDeskPortalCore: 25d3f1aa830e3eb77f0286c273581285e25f6362
+  ZohoDeskPortalKB: 437b1ffca85291aed6da8b7bff0e7b280a757e8b
+  ZohoDeskPortalServices: d565d70ae99a13f36bf05d9145a2abfe330c5566
+  ZohoDeskPortalTicket: 519307db3b4a91b6ffd04f17fcfcacdc34e96551
+
+PODFILE CHECKSUM: 7ecda9467453638616b0c8b00a85c3df297963dc
+
+COCOAPODS: 1.10.1

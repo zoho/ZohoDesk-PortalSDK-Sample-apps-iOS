@@ -7,7 +7,9 @@
 //
 
 import UIKit
-import ZohoDeskPortalSDK
+import ZohoDeskPortalAPIKit
+import ZohoDeskPortalConfiguration
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,10 +18,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        /// Initializing ZohoDeskPortalSDK
+        ///
+        /// - parameter orgID: requested Your OrgID
+        /// - parameter appID: requested Your AppID
+        /// - parameter dataCenter: requested Your dataCenter
         
-        //Have to replace APP-ID, ORG-ID and datacenter configured in ASAP set-up
-        ZohoDeskPortalSDK.initializeSDK("App-ID", appId: "Org-ID", dataCenter: .IN)
+        ZohoDeskPortalSDK.initialize(orgID: "Your_Org_ID", appID: "Your_App_ID", dataCenter: .US)
+       
         return true
     }
 

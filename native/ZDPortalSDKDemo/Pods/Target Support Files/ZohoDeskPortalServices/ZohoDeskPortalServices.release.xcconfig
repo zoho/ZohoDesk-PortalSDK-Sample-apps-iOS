@@ -1,0 +1,14 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/ZohoDeskPortalServices
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Mobilisten" "${PODS_ROOT}/ZDThemeKit" "${PODS_ROOT}/ZohoDeskPortalAPIKit" "${PODS_ROOT}/ZohoDeskPortalChat" "${PODS_ROOT}/ZohoDeskPortalCommunity" "${PODS_ROOT}/ZohoDeskPortalConfiguration" "${PODS_ROOT}/ZohoDeskPortalCore" "${PODS_ROOT}/ZohoDeskPortalKB" "${PODS_ROOT}/ZohoDeskPortalServices" "${PODS_ROOT}/ZohoDeskPortalTicket" "${PODS_XCFRAMEWORKS_BUILD_DIR}/Mobilisten" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZDThemeKit" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalAPIKit" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalChat" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalCommunity" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalConfiguration" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalCore" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalKB" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalServices" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalTicket"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+OTHER_LDFLAGS = $(inherited) -framework "Foundation" -framework "Mobilisten" -framework "UIKit" -framework "ZDThemeKit" -framework "ZohoDeskPortalAPIKit" -framework "ZohoDeskPortalChat" -framework "ZohoDeskPortalCommunity" -framework "ZohoDeskPortalConfiguration" -framework "ZohoDeskPortalCore" -framework "ZohoDeskPortalKB" -framework "ZohoDeskPortalTicket"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/ZohoDeskPortalServices
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

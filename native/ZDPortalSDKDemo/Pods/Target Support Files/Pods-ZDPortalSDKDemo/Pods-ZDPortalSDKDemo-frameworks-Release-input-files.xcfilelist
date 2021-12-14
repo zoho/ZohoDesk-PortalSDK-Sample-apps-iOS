@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-ZDPortalSDKDemo/Pods-ZDPortalSDKDemo-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Mobilisten/Mobilisten.framework/Mobilisten
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZDThemeKit/ZDThemeKit.framework/ZDThemeKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalAPIKit/ZohoDeskPortalAPIKit.framework/ZohoDeskPortalAPIKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalChat/ZohoDeskPortalChat.framework/ZohoDeskPortalChat
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalCommunity/ZohoDeskPortalCommunity.framework/ZohoDeskPortalCommunity
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalConfiguration/ZohoDeskPortalConfiguration.framework/ZohoDeskPortalConfiguration
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalCore/ZohoDeskPortalCore.framework/ZohoDeskPortalCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalKB/ZohoDeskPortalKB.framework/ZohoDeskPortalKB
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalServices/ZohoDeskPortalServices.framework/ZohoDeskPortalServices
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalTicket/ZohoDeskPortalTicket.framework/ZohoDeskPortalTicket

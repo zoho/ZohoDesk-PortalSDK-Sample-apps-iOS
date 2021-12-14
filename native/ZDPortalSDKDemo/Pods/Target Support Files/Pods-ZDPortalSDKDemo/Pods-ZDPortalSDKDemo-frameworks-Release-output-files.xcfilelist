@@ -1,0 +1,10 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mobilisten.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZDThemeKit.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalAPIKit.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalChat.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalCommunity.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalConfiguration.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalCore.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalKB.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalServices.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalTicket.framework
