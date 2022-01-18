@@ -13,6 +13,8 @@
 		2D6BDFEE230ADED600F8BD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6BDFED230ADED600F8BD2F /* Assets.xcassets */; };
 		2D6BDFF1230ADED600F8BD2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6BDFEF230ADED600F8BD2F /* LaunchScreen.storyboard */; };
 		2DB7AC232768DD8C005FF29D /* EventTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7AC222768DD8C005FF29D /* EventTracking.swift */; };
+		2DEB37022796AA4F00870D42 /* ZDDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB37012796AA4F00870D42 /* ZDDemoController.swift */; };
+		2DEB37052796C66800870D42 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB37042796C66800870D42 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		2D6BDFF0230ADED600F8BD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D6BDFF2230ADED600F8BD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DB7AC222768DD8C005FF29D /* EventTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTracking.swift; sourceTree = "<group>"; };
+		2DEB37012796AA4F00870D42 /* ZDDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDDemoController.swift; sourceTree = "<group>"; };
+		2DEB37042796C66800870D42 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		8642D3C35860FB21918CD8EA /* Pods_ZDPortalSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDPortalSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD81632DAF96984DEF52C0DE /* Pods-ZDPortalSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDPortalSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZDPortalSDKDemo/Pods-ZDPortalSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BB1791BD8819CF52D153AC68 /* Pods-ZDPortalSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDPortalSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZDPortalSDKDemo/Pods-ZDPortalSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,12 +74,14 @@
 		2D6BDFE5230ADECE00F8BD2F /* ZDPortalSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2DEB37032796C63200870D42 /* Theme */,
 				2DB7AC212768CDD9005FF29D /* EventCallback */,
 				2D6BDFE6230ADECE00F8BD2F /* AppDelegate.swift */,
 				2D6BDFEA230ADECE00F8BD2F /* Main.storyboard */,
 				2D6BDFED230ADED600F8BD2F /* Assets.xcassets */,
 				2D6BDFEF230ADED600F8BD2F /* LaunchScreen.storyboard */,
 				2D6BDFF2230ADED600F8BD2F /* Info.plist */,
+				2DEB37012796AA4F00870D42 /* ZDDemoController.swift */,
 			);
 			path = ZDPortalSDKDemo;
 			sourceTree = "<group>";
@@ -86,6 +92,14 @@
 				2DB7AC222768DD8C005FF29D /* EventTracking.swift */,
 			);
 			path = EventCallback;
+			sourceTree = "<group>";
+		};
+		2DEB37032796C63200870D42 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				2DEB37042796C66800870D42 /* Theme.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 		BA186594A7DCAA4CD99F16A1 /* Frameworks */ = {
@@ -207,6 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DEB37022796AA4F00870D42 /* ZDDemoController.swift in Sources */,
+				2DEB37052796C66800870D42 /* Theme.swift in Sources */,
 				2D6BDFE7230ADECE00F8BD2F /* AppDelegate.swift in Sources */,
 				2DB7AC232768DD8C005FF29D /* EventTracking.swift in Sources */,
 			);
