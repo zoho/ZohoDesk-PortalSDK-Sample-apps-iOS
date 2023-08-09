@@ -1,0 +1,31 @@
+{
+  "name": "ZohoDeskPortalAPIKit",
+  "version": "3.0.0",
+  "summary": "ASAP API Kit for Zoho Desk",
+  "description": "ASAP API Kit for Zoho Desk",
+  "homepage": "https://zdeskgit.csez.zohocorpin.com/desk-mobile/zd-portal-kit",
+  "license": {
+    "type": "MIT",
+    "text": "LICENSE"
+  },
+  "authors": {
+    "ZOHO-Desk-Mobile": "desk-mobile@zohocorp.com"
+  },
+  "source": {
+    "git": "https://zdeskgit.csez.zohocorpin.com/desk-mobile/zd-portal-kit",
+    "tag": "3.0.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.zoho.desk.ASAP-API"
+  },
+  "source_files": "native/ZDPNetworkKit/ZohoDeskPortalAPIKit/**/*.{swift,h,m}",
+  "resources": "native/ZDPNetworkKit/ZohoDeskPortalAPIKit/**/*.{xcdatamodeld,ttf,js,css,gif,xib,xcassets}",
+  "public_header_files": "ZohoDeskPortalAPIKit/**/*.{h}",
+  "frameworks": "Foundation",
+  "module_name": "ZohoDeskPortalAPIKit",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

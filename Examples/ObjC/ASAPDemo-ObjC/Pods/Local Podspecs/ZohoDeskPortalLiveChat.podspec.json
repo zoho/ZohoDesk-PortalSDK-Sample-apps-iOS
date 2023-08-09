@@ -1,0 +1,41 @@
+{
+  "name": "ZohoDeskPortalLiveChat",
+  "version": "3.0.0",
+  "license": {
+    "type": "MIT"
+  },
+  "homepage": "https://desk.zoho.com",
+  "authors": {
+    "ZOHO-Desk-Mobile": "desk-mobile@zohocorp.com"
+  },
+  "summary": "iOS API Provoider for Chat API",
+  "source": {
+    "git": "https://zdeskgit.csez.zohocorpin.com/zohodesk/idesk-sdk.git",
+    "tag": "3.0.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.zoho.desk.ASAP-LiveChat"
+  },
+  "swift_versions": "5.0",
+  "source_files": "native/ZDPortalGC/**/*.{swift,h}",
+  "resources": "native/ZDPortalGC/**/*.{strings,xib,xcassets,strings,storyboard,xcdatamodeld}",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "ZDChat": [
+
+    ],
+    "ZohoDeskPortalConfiguration": [
+
+    ],
+    "ZohoPubSubSDK": [
+
+    ],
+    "ZohoDeskPortalAPIKit": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

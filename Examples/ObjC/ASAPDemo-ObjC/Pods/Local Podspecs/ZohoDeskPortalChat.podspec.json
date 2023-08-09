@@ -1,0 +1,40 @@
+{
+  "name": "ZohoDeskPortalChat",
+  "version": "3.0.0",
+  "summary": "Chat wrapper for Zoho Desk Portal",
+  "description": "Chat wrapper for Zoho Desk Portal",
+  "homepage": "https://zgit.csez.zohocorpin.com/desk-mobile/zd-portal-utilities",
+  "license": {
+    "type": "MIT",
+    "text": "LICENSE"
+  },
+  "authors": {
+    "ZOHO-Desk-Mobile": "desk-mobile@zohocorp.com"
+  },
+  "source": {
+    "git": "https://zgit.csez.zohocorpin.com/desk-mobile/zd-portal-utilities",
+    "tag": "3.0.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.zoho.desk.ASAP-Chat"
+  },
+  "source_files": "native/ZDPortalChat/**/*.{swift,h,m}",
+  "resources": "native/ZDPortalChat/**/*.{xcdatamodeld,ttf,js,css,gif,xib,xcassets}",
+  "public_header_files": "ZohoDeskPortalChat/**/*.{h}",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "ZohoDeskPortalAPIKit": [
+
+    ],
+    "ZohoDeskPortalConfiguration": [
+
+    ],
+    "Mobilisten": [
+      "5.3.0"
+    ]
+  },
+  "swift_version": "5.0"
+}

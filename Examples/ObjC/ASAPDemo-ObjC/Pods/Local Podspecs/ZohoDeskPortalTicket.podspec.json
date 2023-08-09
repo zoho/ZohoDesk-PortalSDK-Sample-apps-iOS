@@ -1,0 +1,45 @@
+{
+  "name": "ZohoDeskPortalTicket",
+  "version": "3.0.0",
+  "summary": "ASAP UI Kit for Zoho Desk",
+  "description": "ASAP UI Kit for Zoho Desk",
+  "homepage": "https://zgit.csez.zohocorpin.com/ZohoDeskMobile/asap_ui_ios",
+  "license": {
+    "type": "MIT",
+    "text": "LICENSE"
+  },
+  "authors": {
+    "ZOHO-Desk-Mobile": "desk-mobile@zohocorp.com"
+  },
+  "source": {
+    "git": "https://zdeskgit.csez.zohocorpin.com/ZohoDeskMobile/asap_ui_ios.git",
+    "tag": "3.0.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "PRODUCT_BUNDLE_IDENTIFIER": "com.zoho.desk.ASAP-Ticket"
+  },
+  "source_files": "native/ZDPTicket/ZohoDeskPortalTicket/**/*.{swift,h,m}",
+  "resources": "native/ZDPTicket/ZohoDeskPortalTicket/**/*.{xcdatamodeld,ttf,js,css,gif,xib,json,xcassets}",
+  "public_header_files": "ZohoDeskPortalTicket/**/*.{h}",
+  "frameworks": "Foundation",
+  "module_name": "ZohoDeskPortalTicket",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "ZohoDeskPortalAPIKit": [
+
+    ],
+    "ZohoDeskPortalConfiguration": [
+
+    ],
+    "ZohoDeskPlatformUIKit": [
+
+    ],
+    "ZohoDeskPlatformDataBridge": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}
