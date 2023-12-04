@@ -7,6 +7,7 @@
 
 #import "AppDelegate.h"
 @import ZohoDeskPortalAPIKit;
+@import ZohoDeskPortalConfiguration;
 
 @interface AppDelegate ()
 
