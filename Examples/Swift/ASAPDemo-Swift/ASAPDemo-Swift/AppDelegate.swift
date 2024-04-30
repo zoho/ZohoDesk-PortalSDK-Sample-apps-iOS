@@ -11,11 +11,7 @@ import ZohoDeskPortalAPIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        ZohoDeskPortalKit.initialize(orgID: "648638721", appID: "edbsne40d835da9859e856da3db6eee14485371ecd6200ec42f27500e7bd505cae4e0", dataCenter: .US)
         return true
     }
 
@@ -32,7 +28,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
+}
 
-
+extension AppDelegate: UNUserNotificationCenterDelegate {
+    
+    static var deviceTokenString: String?
+    
+    private func enablePushNotification(_ application: UIApplication) {
+        UNUserNotificationCenter.current().delegate = self
+        UNUserNotificationCenter.current().requestAuthorization(options: [.badge, .alert, .sound]) { (_, _) in }
+        application.registerForRemoteNotifications()
+    }
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        AppDelegate.deviceTokenString = deviceToken.reduce("", {$0 + String(format: "%02X", $1)})
+    }
 }
 
