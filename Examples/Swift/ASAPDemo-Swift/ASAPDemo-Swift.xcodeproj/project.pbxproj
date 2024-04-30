@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		213C82E42BDA67D400FBEE44 /* TicketAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C82E32BDA67D400FBEE44 /* TicketAPIs.swift */; };
+		21456A6A2BDBDD7300F441F0 /* GeneralAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21456A692BDBDD7300F441F0 /* GeneralAPIs.swift */; };
 		2DE6E9802B1E05D60069FA7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6E97F2B1E05D60069FA7A /* AppDelegate.swift */; };
 		2DE6E9822B1E05D60069FA7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6E9812B1E05D60069FA7A /* SceneDelegate.swift */; };
 		2DE6E9842B1E05D60069FA7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6E9832B1E05D60069FA7A /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		213C82E32BDA67D400FBEE44 /* TicketAPIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketAPIs.swift; sourceTree = "<group>"; };
+		21456A692BDBDD7300F441F0 /* GeneralAPIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralAPIs.swift; sourceTree = "<group>"; };
 		2DE6E97C2B1E05D60069FA7A /* ASAPDemo-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASAPDemo-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE6E97F2B1E05D60069FA7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DE6E9812B1E05D60069FA7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,8 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				2DE6E97F2B1E05D60069FA7A /* AppDelegate.swift */,
+				21456A692BDBDD7300F441F0 /* GeneralAPIs.swift */,
 				2DE6E9812B1E05D60069FA7A /* SceneDelegate.swift */,
 				2DE6E9832B1E05D60069FA7A /* ViewController.swift */,
+				213C82E32BDA67D400FBEE44 /* TicketAPIs.swift */,
 				2DE6E9852B1E05D60069FA7A /* Main.storyboard */,
 				2DE6E9882B1E05D80069FA7A /* Assets.xcassets */,
 				2DE6E98A2B1E05D80069FA7A /* LaunchScreen.storyboard */,
@@ -208,6 +214,8 @@
 			files = (
 				2DE6E9842B1E05D60069FA7A /* ViewController.swift in Sources */,
 				2DE6E9802B1E05D60069FA7A /* AppDelegate.swift in Sources */,
+				21456A6A2BDBDD7300F441F0 /* GeneralAPIs.swift in Sources */,
+				213C82E42BDA67D400FBEE44 /* TicketAPIs.swift in Sources */,
 				2DE6E9822B1E05D60069FA7A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

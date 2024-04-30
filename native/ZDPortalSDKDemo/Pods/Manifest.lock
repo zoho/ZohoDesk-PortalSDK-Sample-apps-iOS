@@ -1,44 +1,88 @@
 PODS:
-  - Mobilisten (4.2.1)
-  - ZDThemeKit (1.1)
-  - ZohoDeskPortalAPIKit (2.0.11)
-  - ZohoDeskPortalChat (2.0.11):
-    - Mobilisten (= 4.2.1)
-    - ZDThemeKit (= 1.1)
-    - ZohoDeskPortalAPIKit (= 2.0.11)
-    - ZohoDeskPortalConfiguration (= 2.0.11)
-  - ZohoDeskPortalCommunity (2.0.11):
-    - ZDThemeKit (= 1.1)
-    - ZohoDeskPortalAPIKit (= 2.0.11)
-    - ZohoDeskPortalConfiguration (= 2.0.11)
-  - ZohoDeskPortalConfiguration (2.0.11):
-    - ZDThemeKit (= 1.1)
-    - ZohoDeskPortalAPIKit (= 2.0.11)
-  - ZohoDeskPortalCore (2.0.11):
-    - ZDThemeKit (= 1.1)
-    - ZohoDeskPortalAPIKit (= 2.0.11)
-    - ZohoDeskPortalCommunity (= 2.0.11)
-    - ZohoDeskPortalConfiguration (= 2.0.11)
-    - ZohoDeskPortalKB (= 2.0.11)
-    - ZohoDeskPortalTicket (= 2.0.11)
-  - ZohoDeskPortalKB (2.0.11):
-    - ZDThemeKit (= 1.1)
-    - ZohoDeskPortalAPIKit (= 2.0.11)
-    - ZohoDeskPortalConfiguration (= 2.0.11)
-  - ZohoDeskPortalServices (2.0.11):
-    - Mobilisten (= 4.2.1)
-    - ZDThemeKit (= 1.1)
-    - ZohoDeskPortalAPIKit (= 2.0.11)
-    - ZohoDeskPortalChat (= 2.0.11)
-    - ZohoDeskPortalCommunity (= 2.0.11)
-    - ZohoDeskPortalConfiguration (= 2.0.11)
-    - ZohoDeskPortalCore (= 2.0.11)
-    - ZohoDeskPortalKB (= 2.0.11)
-    - ZohoDeskPortalTicket (= 2.0.11)
-  - ZohoDeskPortalTicket (2.0.11):
-    - ZDThemeKit (= 1.1)
-    - ZohoDeskPortalAPIKit (= 2.0.11)
-    - ZohoDeskPortalConfiguration (= 2.0.11)
+  - Mobilisten (5.4.1)
+  - SwiftProtobuf (1.19.0)
+  - ZDChat (2.3.5)
+  - ZDMediaPickerSDK (1.0.5)
+  - ZohoDeskPlatformDataBridge (1.0.11)
+  - ZohoDeskPlatformUIKit (1.0.11):
+    - SwiftProtobuf (= 1.19.0)
+    - ZDMediaPickerSDK (= 1.0.5)
+    - ZohoDeskPlatformDataBridge (= 1.0.11)
+  - ZohoDeskPortalAPIKit (3.0.1)
+  - ZohoDeskPortalChat (3.0.1):
+    - Mobilisten (= 5.4.1)
+    - SwiftProtobuf (= 1.19.0)
+    - ZDMediaPickerSDK (= 1.0.5)
+    - ZohoDeskPlatformDataBridge (= 1.0.11)
+    - ZohoDeskPlatformUIKit (= 1.0.11)
+    - ZohoDeskPortalAPIKit (= 3.0.1)
+    - ZohoDeskPortalConfiguration (= 3.0.1)
+  - ZohoDeskPortalCommunity (3.0.1):
+    - SwiftProtobuf (= 1.19.0)
+    - ZDMediaPickerSDK (= 1.0.5)
+    - ZohoDeskPlatformDataBridge (= 1.0.11)
+    - ZohoDeskPlatformUIKit (= 1.0.11)
+    - ZohoDeskPortalAPIKit (= 3.0.1)
+    - ZohoDeskPortalConfiguration (= 3.0.1)
+  - ZohoDeskPortalConfiguration (3.0.1):
+    - SwiftProtobuf (= 1.19.0)
+    - ZDMediaPickerSDK (= 1.0.5)
+    - ZohoDeskPlatformDataBridge (= 1.0.11)
+    - ZohoDeskPlatformUIKit (= 1.0.11)
+    - ZohoDeskPortalAPIKit (= 3.0.1)
+  - ZohoDeskPortalCore (3.0.1):
+    - SwiftProtobuf (= 1.19.0)
+    - ZDChat (= 2.3.5)
+    - ZDMediaPickerSDK (= 1.0.5)
+    - ZohoDeskPlatformDataBridge (= 1.0.11)
+    - ZohoDeskPlatformUIKit (= 1.0.11)
+    - ZohoDeskPortalAPIKit (= 3.0.1)
+    - ZohoDeskPortalCommunity (= 3.0.1)
+    - ZohoDeskPortalConfiguration (= 3.0.1)
+    - ZohoDeskPortalKB (= 3.0.1)
+    - ZohoDeskPortalLiveChat (= 3.0.1)
+    - ZohoDeskPortalTicket (= 3.0.1)
+    - ZohoPubSubSDK (= 1.2.5)
+  - ZohoDeskPortalKB (3.0.1):
+    - SwiftProtobuf (= 1.19.0)
+    - ZDMediaPickerSDK (= 1.0.5)
+    - ZohoDeskPlatformDataBridge (= 1.0.11)
+    - ZohoDeskPlatformUIKit (= 1.0.11)
+    - ZohoDeskPortalAPIKit (= 3.0.1)
+    - ZohoDeskPortalConfiguration (= 3.0.1)
+  - ZohoDeskPortalLiveChat (3.0.1):
+    - SwiftProtobuf (= 1.19.0)
+    - ZDChat (= 2.3.5)
+    - ZDMediaPickerSDK (= 1.0.5)
+    - ZohoDeskPlatformDataBridge (= 1.0.11)
+    - ZohoDeskPlatformUIKit (= 1.0.11)
+    - ZohoDeskPortalAPIKit (= 3.0.1)
+    - ZohoDeskPortalConfiguration (= 3.0.1)
+    - ZohoPubSubSDK (= 1.2.5)
+  - ZohoDeskPortalServices (3.0.1):
+    - Mobilisten (= 5.4.1)
+    - SwiftProtobuf (= 1.19.0)
+    - ZDChat (= 2.3.5)
+    - ZDMediaPickerSDK (= 1.0.5)
+    - ZohoDeskPlatformDataBridge (= 1.0.11)
+    - ZohoDeskPlatformUIKit (= 1.0.11)
+    - ZohoDeskPortalAPIKit (= 3.0.1)
+    - ZohoDeskPortalChat (= 3.0.1)
+    - ZohoDeskPortalCommunity (= 3.0.1)
+    - ZohoDeskPortalConfiguration (= 3.0.1)
+    - ZohoDeskPortalCore (= 3.0.1)
+    - ZohoDeskPortalKB (= 3.0.1)
+    - ZohoDeskPortalLiveChat (= 3.0.1)
+    - ZohoDeskPortalTicket (= 3.0.1)
+    - ZohoPubSubSDK (= 1.2.5)
+  - ZohoDeskPortalTicket (3.0.1):
+    - SwiftProtobuf (= 1.19.0)
+    - ZDMediaPickerSDK (= 1.0.5)
+    - ZohoDeskPlatformDataBridge (= 1.0.11)
+    - ZohoDeskPlatformUIKit (= 1.0.11)
+    - ZohoDeskPortalAPIKit (= 3.0.1)
+    - ZohoDeskPortalConfiguration (= 3.0.1)
+  - ZohoPubSubSDK (1.2.5)
 
 DEPENDENCIES:
   - ZohoDeskPortalServices
@@ -46,28 +90,40 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Mobilisten
-    - ZDThemeKit
+    - SwiftProtobuf
+    - ZDChat
+    - ZDMediaPickerSDK
+    - ZohoDeskPlatformDataBridge
+    - ZohoDeskPlatformUIKit
     - ZohoDeskPortalAPIKit
     - ZohoDeskPortalChat
     - ZohoDeskPortalCommunity
     - ZohoDeskPortalConfiguration
     - ZohoDeskPortalCore
     - ZohoDeskPortalKB
+    - ZohoDeskPortalLiveChat
     - ZohoDeskPortalServices
     - ZohoDeskPortalTicket
+    - ZohoPubSubSDK
 
 SPEC CHECKSUMS:
-  Mobilisten: 3c94cb5d6dcb1dbd1360a2aeeacf7c26e3b27329
-  ZDThemeKit: ceea7c1ac8d90810a74c23db9f46f649e626f03b
-  ZohoDeskPortalAPIKit: 1ca3f2b58167403180151553ac850d73e083e8a7
-  ZohoDeskPortalChat: a1576e13c9c4e34ce8dfa0bf8eac2adf09878e39
-  ZohoDeskPortalCommunity: e585e92f86cfe3388a5c43b7897634c78b5ab75f
-  ZohoDeskPortalConfiguration: 2ad3a653189a4fe84e87d01061c82f7feaf7fbf1
-  ZohoDeskPortalCore: 25d3f1aa830e3eb77f0286c273581285e25f6362
-  ZohoDeskPortalKB: 437b1ffca85291aed6da8b7bff0e7b280a757e8b
-  ZohoDeskPortalServices: d565d70ae99a13f36bf05d9145a2abfe330c5566
-  ZohoDeskPortalTicket: 519307db3b4a91b6ffd04f17fcfcacdc34e96551
+  Mobilisten: 0a1309d188b6b81a6b1fbc76ffc6941994fff5ba
+  SwiftProtobuf: 6ef3f0e422ef90d6605ca20b21a94f6c1324d6b3
+  ZDChat: 19211be3867690f522e6e74df0cfb14b0decfc92
+  ZDMediaPickerSDK: 5b9c1b15560588c2d0f2752dac55fa0ea829f50e
+  ZohoDeskPlatformDataBridge: 93d318dfb71315628a2ea47576ed9b3e3e37f27a
+  ZohoDeskPlatformUIKit: d2e410d0de6bb4e8b697f81ca4f2f82ea6d2d4df
+  ZohoDeskPortalAPIKit: 6ad7d8d46295588f03c8217014ea8d66bc2392a4
+  ZohoDeskPortalChat: 347916953d459cdb7a0e320cc555a1e72aa21ee5
+  ZohoDeskPortalCommunity: 88262c0e00268f9fce777062e96ba76eb107b1ff
+  ZohoDeskPortalConfiguration: f98e40eb27792bbbed1a38c1cf81bf62e14fce61
+  ZohoDeskPortalCore: e41908f8b93ca15c55e969772f7c8f795fc45383
+  ZohoDeskPortalKB: 97e316f15cf82f56ef68761660ed6aede6d8d4ff
+  ZohoDeskPortalLiveChat: 93737446e6bc744e71effe00649221e54d186bdf
+  ZohoDeskPortalServices: bb4c250ef0d43bc71abddc01f48ba97788bfc6af
+  ZohoDeskPortalTicket: b3153375815577f61d5a8fc06aad5a265b157ffd
+  ZohoPubSubSDK: 5910a9a0c6a07e16cb3ddf3962d57331f42fc6de
 
 PODFILE CHECKSUM: 7ecda9467453638616b0c8b00a85c3df297963dc
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.14.3

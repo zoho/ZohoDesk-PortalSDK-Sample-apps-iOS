@@ -12,7 +12,7 @@
 		2D35EBDD22C1112D00ACCD14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D35EBDC22C1112D00ACCD14 /* Assets.xcassets */; };
 		2D35EBE022C1112D00ACCD14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D35EBDE22C1112D00ACCD14 /* LaunchScreen.storyboard */; };
 		2DCD9EDD22C1F11D00104480 /* ZDDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCD9EDC22C1F11D00104480 /* ZDDemoViewController.swift */; };
-		6E0B547BA3230360B88EEE6A /* Pods_AddTicketCustomizationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFD8D3F67403ABBBE159432 /* Pods_AddTicketCustomizationDemo.framework */; };
+		F65C9E94DBD93D6A7983079E /* Pods_AddTicketCustomizationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B5DEF5FC178AD9688B1BA6 /* Pods_AddTicketCustomizationDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		03604112965678DCC63FE2CE /* Pods-AddTicketCustomizationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddTicketCustomizationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AddTicketCustomizationDemo/Pods-AddTicketCustomizationDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		2AFD8D3F67403ABBBE159432 /* Pods_AddTicketCustomizationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddTicketCustomizationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13785F771687A44A2009AFAF /* Pods-AddTicketCustomizationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddTicketCustomizationDemo.release.xcconfig"; path = "Target Support Files/Pods-AddTicketCustomizationDemo/Pods-AddTicketCustomizationDemo.release.xcconfig"; sourceTree = "<group>"; };
 		2D35EBD222C1112300ACCD14 /* AddTicketCustomizationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddTicketCustomizationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D35EBD522C1112300ACCD14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D35EBDA22C1112300ACCD14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +37,8 @@
 		2D35EBDF22C1112D00ACCD14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D35EBE122C1112D00ACCD14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DCD9EDC22C1F11D00104480 /* ZDDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDDemoViewController.swift; sourceTree = "<group>"; };
-		5D3B14E023EDC577C80D4F48 /* Pods-AddTicketCustomizationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddTicketCustomizationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AddTicketCustomizationDemo/Pods-AddTicketCustomizationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3FC2B4E0480C3019E3926B54 /* Pods-AddTicketCustomizationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddTicketCustomizationDemo.debug.xcconfig"; path = "Target Support Files/Pods-AddTicketCustomizationDemo/Pods-AddTicketCustomizationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		78B5DEF5FC178AD9688B1BA6 /* Pods_AddTicketCustomizationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddTicketCustomizationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,20 +46,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E0B547BA3230360B88EEE6A /* Pods_AddTicketCustomizationDemo.framework in Frameworks */,
+				F65C9E94DBD93D6A7983079E /* Pods_AddTicketCustomizationDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16604A862BDDDC1507C462BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B4E0480C3019E3926B54 /* Pods-AddTicketCustomizationDemo.debug.xcconfig */,
+				13785F771687A44A2009AFAF /* Pods-AddTicketCustomizationDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2D35EBC922C1112300ACCD14 = {
 			isa = PBXGroup;
 			children = (
 				2D35EBD422C1112300ACCD14 /* AddTicketCustomizationDemo */,
 				2D35EBD322C1112300ACCD14 /* Products */,
-				D84084009B85B3B0AC1528D8 /* Pods */,
-				9071F60800AA0F8A7D40CE88 /* Frameworks */,
+				16604A862BDDDC1507C462BD /* Pods */,
+				A928344137D3FF7E6F19DA9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,21 +102,12 @@
 			path = ZDDemo;
 			sourceTree = "<group>";
 		};
-		9071F60800AA0F8A7D40CE88 /* Frameworks */ = {
+		A928344137D3FF7E6F19DA9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2AFD8D3F67403ABBBE159432 /* Pods_AddTicketCustomizationDemo.framework */,
+				78B5DEF5FC178AD9688B1BA6 /* Pods_AddTicketCustomizationDemo.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D84084009B85B3B0AC1528D8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				03604112965678DCC63FE2CE /* Pods-AddTicketCustomizationDemo.debug.xcconfig */,
-				5D3B14E023EDC577C80D4F48 /* Pods-AddTicketCustomizationDemo.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,12 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D35EBE422C1112D00ACCD14 /* Build configuration list for PBXNativeTarget "AddTicketCustomizationDemo" */;
 			buildPhases = (
-				89A6BE5B760D1D155DE5AE56 /* [CP] Check Pods Manifest.lock */,
+				ED7475A587F41B5F5BF431C6 /* [CP] Check Pods Manifest.lock */,
 				2D35EBCE22C1112300ACCD14 /* Sources */,
 				2D35EBCF22C1112300ACCD14 /* Frameworks */,
 				2D35EBD022C1112300ACCD14 /* Resources */,
 				2D35EBF222C1297900ACCD14 /* Embed Frameworks */,
-				08D52E8ED2AF265A821E9D1C /* [CP] Embed Pods Frameworks */,
+				CC77CF12EBB482F5456B530B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,34 +180,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08D52E8ED2AF265A821E9D1C /* [CP] Embed Pods Frameworks */ = {
+		CC77CF12EBB482F5456B530B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AddTicketCustomizationDemo/Pods-AddTicketCustomizationDemo-frameworks.sh",
-				"${PODS_ROOT}/ZohoDeskPortalSDK/native/ZohoDeskPortalSDK.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddTicketCustomizationDemo/Pods-AddTicketCustomizationDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskPortalSDK.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddTicketCustomizationDemo/Pods-AddTicketCustomizationDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddTicketCustomizationDemo/Pods-AddTicketCustomizationDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddTicketCustomizationDemo/Pods-AddTicketCustomizationDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		89A6BE5B760D1D155DE5AE56 /* [CP] Check Pods Manifest.lock */ = {
+		ED7475A587F41B5F5BF431C6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AddTicketCustomizationDemo-checkManifestLockResult.txt",
 			);
@@ -367,7 +371,7 @@
 		};
 		2D35EBE522C1112D00ACCD14 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03604112965678DCC63FE2CE /* Pods-AddTicketCustomizationDemo.debug.xcconfig */;
+			baseConfigurationReference = 3FC2B4E0480C3019E3926B54 /* Pods-AddTicketCustomizationDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -388,7 +392,7 @@
 		};
 		2D35EBE622C1112D00ACCD14 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D3B14E023EDC577C80D4F48 /* Pods-AddTicketCustomizationDemo.release.xcconfig */;
+			baseConfigurationReference = 13785F771687A44A2009AFAF /* Pods-AddTicketCustomizationDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

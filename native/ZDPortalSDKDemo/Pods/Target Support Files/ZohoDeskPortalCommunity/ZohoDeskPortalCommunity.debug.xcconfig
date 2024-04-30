@@ -1,14 +1,14 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/ZohoDeskPortalCommunity
-EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/ZDThemeKit" "${PODS_ROOT}/ZohoDeskPortalAPIKit" "${PODS_ROOT}/ZohoDeskPortalCommunity" "${PODS_ROOT}/ZohoDeskPortalConfiguration" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZDThemeKit" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalAPIKit" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalCommunity" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalConfiguration"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SwiftProtobuf" "${PODS_ROOT}/ZDMediaPickerSDK" "${PODS_ROOT}/ZohoDeskPlatformDataBridge" "${PODS_ROOT}/ZohoDeskPlatformUIKit" "${PODS_ROOT}/ZohoDeskPortalAPIKit" "${PODS_ROOT}/ZohoDeskPortalCommunity" "${PODS_ROOT}/ZohoDeskPortalConfiguration" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZDMediaPickerSDK" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPlatformDataBridge" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPlatformUIKit" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalAPIKit" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalCommunity" "${PODS_XCFRAMEWORKS_BUILD_DIR}/ZohoDeskPortalConfiguration"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-OTHER_LDFLAGS = $(inherited) -framework "Foundation" -framework "UIKit" -framework "ZDThemeKit" -framework "ZohoDeskPortalAPIKit" -framework "ZohoDeskPortalConfiguration"
+OTHER_LDFLAGS = $(inherited) -framework "Foundation" -framework "UIKit" -framework "ZDMediaPickerSDK" -framework "ZohoDeskPlatformDataBridge" -framework "ZohoDeskPlatformUIKit" -framework "ZohoDeskPortalAPIKit" -framework "ZohoDeskPortalConfiguration"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_DEVELOPMENT_LANGUAGE = ${DEVELOPMENT_LANGUAGE}
 PODS_ROOT = ${SRCROOT}
 PODS_TARGET_SRCROOT = ${PODS_ROOT}/ZohoDeskPortalCommunity
 PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
-PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+PRODUCT_BUNDLE_IDENTIFIER = com.zoho.desk.ASAP-Community
 SKIP_INSTALL = YES
 USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
