@@ -668,4 +668,16 @@ class MyTicketAPIs {
             }
         }
     }
+    
+    private func deleteComment() {
+        
+        let commentID: String = "Ticket_ID"
+        let ticketID: String = "Ticket_ID"
+        
+        //To delete comment of a ticket
+        //Authentication required to perform action
+        ZohoDeskPortalKit.Ticket.deleteComment(withID: commentID, forTicketID: ticketID) { flag in
+            flag //Whether successfully deleted a comment
+        }
+    }
 }
