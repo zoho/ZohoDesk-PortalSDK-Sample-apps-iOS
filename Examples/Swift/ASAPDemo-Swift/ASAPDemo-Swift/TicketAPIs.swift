@@ -434,6 +434,25 @@ class MyTicketAPIs {
         }
     }
     
+    private func getReply() {
+        
+        let replyID: String = "Reply/Thread_ID"
+        let ticketID: String = "Ticket_ID"
+        
+        //To get a ticket reply/thread
+        //Authentication required to perform action
+        ZohoDeskPortalKit.Ticket.getThread(withID: replyID, forTicketID: ticketID) { result in
+            switch result {
+            case .success(let reply):
+                //Ticket reply downloaded
+                reply
+            case .failure(let error):
+                //Ticket reply download exception
+                error
+            }
+        }
+    }
+    
     private func addComment() {
         
         //Body of a ticket reply
