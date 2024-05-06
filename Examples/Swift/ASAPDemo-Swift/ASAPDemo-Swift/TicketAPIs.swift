@@ -242,11 +242,26 @@ class SubmitTicketAPIs {
         
         ///Ticket Fields
         /// - Field & Value format
-        let ticketFields: [String: Any] = [:]
+        /// - Parameters:
+        ///     - ticketField: Ticket field name as keyword & field value as value
+        ///     - customField: cf as keyword & `Dictionary<cfName, value>`
+        ///     - attachmentIds: `Array<attachmentID>`
+        let params: [String: Any] = [
+            "departmentId": "Department_ID",
+            "layoutId": "Layout_ID",
+            "email": "EmailID",
+            "contactName": "Contact_Name",
+            "subject": "Ticket_Subject",
+            "description": "Description",
+            "systemField1": "value1",
+            "systemField2": "value2",
+            "cf": ["cf_field1": "cf_value1", "cf_field2": "cf_value2"],
+            "attachmentIds": ["AttachmentID1","AttachmentID2","..."]
+        ]
         
         //To submit ticket as a guest user
         //Note: Guest user can't view or track submitted tickets
-        ZohoDeskPortalKit.Ticket.addAsGuest(withFields: ticketFields) { result in
+        ZohoDeskPortalKit.Ticket.addAsGuest(withFields: params) { result in
             switch result {
             case .success(let ticketID):
                 //Submitted ticket ID
@@ -267,8 +282,12 @@ class SubmitTicketAPIs {
         ///     - customField: cf as keyword & `Dictionary<cfName, value>`
         ///     - attachmentIds: `Array<attachmentID>`
         let params: [String: Any] = [
-            "ticketField1": "value1",
-            "ticketField2": "value2",
+            "departmentId": "Department_ID",
+            "layoutId": "Layout_ID",
+            "subject": "Ticket_Subject",
+            "description": "Description",
+            "systemField1": "value1",
+            "systemField2": "value2",
             "cf": ["cf_field1": "cf_value1", "cf_field2": "cf_value2"],
             "attachmentIds": ["AttachmentID1","AttachmentID2","..."]
         ]
@@ -597,10 +616,10 @@ class MyTicketAPIs {
         ///     - customField: cf as keyword & `Dictionary<cfName, value>`
         ///     - attachmentIds: `Array<attachmentID>`
         let params: [String: Any] = [
-            "ticketField1": "value1",
-            "ticketField2": "value2",
-            "cf": ["cf_field1": "cf_value1", "cf_field2": "cf_value2"],
-            "attachmentIds": "[AttachmentID1,AttachmentID2,..]"
+            "systemField1": "changedValue1",
+            "systemField2": "changedValue2",
+            "cf": ["cf_field1": "cf_changedValue1", "cf_field2": "cf_changedValue2"],
+            "uploads": "[AttachmentID1,AttachmentID2,..]"
         ]
         
         //To update a ticket
