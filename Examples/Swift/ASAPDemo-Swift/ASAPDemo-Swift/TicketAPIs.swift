@@ -407,7 +407,7 @@ class MyTicketAPIs {
         //Body of a ticket reply
         let body: [String: Any] = [
             "content": "Reply_Content",
-            "attachmentIds": "[AttachmentID1,AttachmentID2,..]",
+            "attachmentIds": ["AttachmentID1","AttachmentID2","..."],
             "notifyMentions": "Flag"
         ]
         
@@ -477,7 +477,7 @@ class MyTicketAPIs {
         //Body of a ticket reply
         let body: [String: Any] = [
             "content": "Comment_Content",
-            "attachmentIds": "[AttachmentID1,AttachmentID2,..]",
+            "attachmentIds": ["AttachmentID1","AttachmentID2","..."],
             "notifyMentions": "Flag"
         ]
         
@@ -619,7 +619,7 @@ class MyTicketAPIs {
             "systemField1": "changedValue1",
             "systemField2": "changedValue2",
             "cf": ["cf_field1": "cf_changedValue1", "cf_field2": "cf_changedValue2"],
-            "uploads": "[AttachmentID1,AttachmentID2,..]"
+            "uploads": ["AttachmentID1","AttachmentID2","..."]
         ]
         
         //To update a ticket
