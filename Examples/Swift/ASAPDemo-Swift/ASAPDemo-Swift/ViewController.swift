@@ -40,6 +40,7 @@ class ViewController: UIViewController {
 class DemoLightThemeClass : ZDPThemeProtocol{
     var navigationBarBackgroundColor: UIColor = .white
     var navigationBarTextColor: UIColor = .black
+    var navigationBarButtonColor: UIColor = .black
     
     // You can customize othe properties using following varible
     // Refer the Theme Customization image in document for more detail
@@ -60,6 +61,7 @@ class DemoLightThemeClass : ZDPThemeProtocol{
 class DemoDarkThemeClass : ZDPThemeProtocol{
     var navigationBarBackgroundColor: UIColor = .black
     var navigationBarTextColor: UIColor = .white
+    var navigationBarButtonColor: UIColor = .white
     
     // You can customize othe properties using following varible
     // Refer the Theme Customization image in document for more detail
