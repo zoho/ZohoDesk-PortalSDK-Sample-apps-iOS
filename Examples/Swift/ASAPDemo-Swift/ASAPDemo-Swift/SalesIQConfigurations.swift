@@ -9,6 +9,7 @@ import ZohoDeskPortalSalesIQ
 
 
 // MARK: - ASAP SalesIQConfigurations APIs
+/// Note: These SalesIQ configurations are supported from ZohoDeskPortalSalesIQ v4.0.6 onwards.
 // For more details about the configurations, refer to the documentation: SalesIQ Configurations Link:-
 class SalesIQConfigurations {
     
