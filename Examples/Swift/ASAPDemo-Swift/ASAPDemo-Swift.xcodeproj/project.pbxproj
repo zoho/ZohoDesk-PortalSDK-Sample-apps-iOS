@@ -16,6 +16,7 @@
 		2DE6E9892B1E05D80069FA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE6E9882B1E05D80069FA7A /* Assets.xcassets */; };
 		2DE6E98C2B1E05D80069FA7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE6E98A2B1E05D80069FA7A /* LaunchScreen.storyboard */; };
 		60BD37C3EEBCD8D5F5495F0C /* Pods_ASAPDemo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA8E2C8DBCEF36A521517C1 /* Pods_ASAPDemo_Swift.framework */; };
+		F264B9F72D3FC27B0001487F /* SalesIQConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264B9F62D3FC2710001487F /* SalesIQConfigurations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7EA8E2C8DBCEF36A521517C1 /* Pods_ASAPDemo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAPDemo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EFBE289425FFCFE7D4AF746 /* Pods-ASAPDemo-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAPDemo-Swift.debug.xcconfig"; path = "Target Support Files/Pods-ASAPDemo-Swift/Pods-ASAPDemo-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		D091A873E542DEDDBD1FB695 /* Pods-ASAPDemo-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAPDemo-Swift.release.xcconfig"; path = "Target Support Files/Pods-ASAPDemo-Swift/Pods-ASAPDemo-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		F264B9F62D3FC2710001487F /* SalesIQConfigurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesIQConfigurations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				2DE6E9812B1E05D60069FA7A /* SceneDelegate.swift */,
 				2DE6E9832B1E05D60069FA7A /* ViewController.swift */,
 				213C82E32BDA67D400FBEE44 /* TicketAPIs.swift */,
+				F264B9F62D3FC2710001487F /* SalesIQConfigurations.swift */,
 				2DE6E9852B1E05D60069FA7A /* Main.storyboard */,
 				2DE6E9882B1E05D80069FA7A /* Assets.xcassets */,
 				2DE6E98A2B1E05D80069FA7A /* LaunchScreen.storyboard */,
@@ -217,6 +220,7 @@
 				21456A6A2BDBDD7300F441F0 /* GeneralAPIs.swift in Sources */,
 				213C82E42BDA67D400FBEE44 /* TicketAPIs.swift in Sources */,
 				2DE6E9822B1E05D60069FA7A /* SceneDelegate.swift in Sources */,
+				F264B9F72D3FC27B0001487F /* SalesIQConfigurations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
