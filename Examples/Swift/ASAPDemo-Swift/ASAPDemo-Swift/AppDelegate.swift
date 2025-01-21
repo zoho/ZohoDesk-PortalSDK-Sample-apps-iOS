@@ -12,6 +12,8 @@ import ZohoDeskPortalAPIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        SalesIQConfigurations.setSalesIQConfiguration()// Set SalesIQ configuration
+        GeneralAPIs.initializeASAPSDK()// Initialize the ASAP SDKs
         return true
     }
 
