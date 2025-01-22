@@ -4,7 +4,19 @@
 target 'ASAPDemo-Swift' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-    pod 'ZohoDeskPortalServices', '3.0.0-beta.17'
+  
+
+  pod 'ZohoDeskPortalAPIKit'
+  pod 'ZohoDeskPortalConfiguration'
+    
+  pod 'ZohoDeskPortalKB'
+  pod 'ZohoDeskPortalCommunity'
+  pod 'ZohoDeskPortalTicket'
+    
+  pod 'ZohoDeskPortalCore'
+    
+  pod 'ZohoDeskPortalSalesIQ'
+  pod 'ZohoDeskPortalChatKit'
 
   # Pods for ASAPDemo-Swift
 

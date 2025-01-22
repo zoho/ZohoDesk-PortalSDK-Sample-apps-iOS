@@ -9,7 +9,7 @@ import Foundation
 import ZohoDeskPortalAPIKit
 
 class GeneralAPIs {
-    private func initializeASAPSDK() {
+    static func initializeASAPSDK() {
         // Initializing ZohoDeskPortalSDK
         ///
         /// - parameter orgID: Your OrgID from Zoho Desk ASAP setup
