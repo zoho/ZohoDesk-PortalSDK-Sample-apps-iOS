@@ -5,18 +5,18 @@ target 'ASAPDemo-Swift' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   
-  # Update to the latest version of the ASAP SDKs
-  pod 'ZohoDeskPortalAPIKit', 'LATEST_VERSION'
-  pod 'ZohoDeskPortalConfiguration', 'LATEST_VERSION'
+
+  pod 'ZohoDeskPortalAPIKit'
+  pod 'ZohoDeskPortalConfiguration'
     
-  pod 'ZohoDeskPortalKB', 'LATEST_VERSION'
-  pod 'ZohoDeskPortalCommunity', 'LATEST_VERSION'
-  pod 'ZohoDeskPortalTicket', 'LATEST_VERSION'
+  pod 'ZohoDeskPortalKB'
+  pod 'ZohoDeskPortalCommunity'
+  pod 'ZohoDeskPortalTicket'
     
-  pod 'ZohoDeskPortalCore', 'LATEST_VERSION'
+  pod 'ZohoDeskPortalCore'
     
-  pod 'ZohoDeskPortalSalesIQ', 'LATEST_VERSION'
-  pod 'ZohoDeskPortalChatKit', 'LATEST_VERSION'
+  pod 'ZohoDeskPortalSalesIQ'
+  pod 'ZohoDeskPortalChatKit'
 
   # Pods for ASAPDemo-Swift
 
